@@ -1,2 +1,6 @@
-# ZJU-courses
-存放一些课程资料，供参考
+# NoughtQ's ZJU Courses 资料库！
+
+目前存放的课程资料有（按时间顺序排序）：
+
+
+
