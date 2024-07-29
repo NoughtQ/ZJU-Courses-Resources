@@ -1,0 +1,194 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Mon Apr 15 22:14:39 2024
+# Process ID: 13256
+# Current directory: D:/University/CS/major-courses/dld/labs/reports/lab7/Mux4to1b4_sch/Mux4to1b4_sch.runs/synth_1
+# Command line: vivado.exe -log Mux4to1b4.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Mux4to1b4.tcl
+# Log file: D:/University/CS/major-courses/dld/labs/reports/lab7/Mux4to1b4_sch/Mux4to1b4_sch.runs/synth_1/Mux4to1b4.vds
+# Journal file: D:/University/CS/major-courses/dld/labs/reports/lab7/Mux4to1b4_sch/Mux4to1b4_sch.runs/synth_1\vivado.jou
+# Running On: LAPTOP-P3519Q3B, OS: Windows, CPU Frequency: 2918 MHz, CPU Physical cores: 14, Host memory: 16788 MB
+#-----------------------------------------------------------
+source Mux4to1b4.tcl -notrace
+create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:11 . Memory (MB): peak = 486.242 ; gain = 179.711
+Command: synth_design -top Mux4to1b4 -part xc7k160tffg676-2L
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k160t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k160t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 22580
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:10 . Memory (MB): peak = 932.402 ; gain = 442.184
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'Mux4to1b4' [D:/University/CS/major-courses/dld/labs/reports/lab7/lab7/Mux4to1b4/verilog/circuit/Mux4to1b4.v:9]
+INFO: [Synth 8-6157] synthesizing module 'Mux4to1' [D:/University/CS/major-courses/dld/labs/reports/lab7/lab7/Mux4to1b4/verilog/circuit/Mux4to1.v:9]
+INFO: [Synth 8-6157] synthesizing module 'AND_GATE' [D:/University/CS/major-courses/dld/labs/reports/lab7/lab7/Mux4to1b4/verilog/gates/AND_GATE.v:9]
+	Parameter BubblesMask bound to: 65'b00000000000000000000000000000000000000000000000000000000000000000 
+INFO: [Synth 8-6155] done synthesizing module 'AND_GATE' (0#1) [D:/University/CS/major-courses/dld/labs/reports/lab7/lab7/Mux4to1b4/verilog/gates/AND_GATE.v:9]
+INFO: [Synth 8-6157] synthesizing module 'OR_GATE_4_INPUTS' [D:/University/CS/major-courses/dld/labs/reports/lab7/lab7/Mux4to1b4/verilog/gates/OR_GATE_4_INPUTS.v:9]
+	Parameter BubblesMask bound to: 65'b00000000000000000000000000000000000000000000000000000000000000000 
+INFO: [Synth 8-6155] done synthesizing module 'OR_GATE_4_INPUTS' (0#1) [D:/University/CS/major-courses/dld/labs/reports/lab7/lab7/Mux4to1b4/verilog/gates/OR_GATE_4_INPUTS.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'Mux4to1' (0#1) [D:/University/CS/major-courses/dld/labs/reports/lab7/lab7/Mux4to1b4/verilog/circuit/Mux4to1.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'Mux4to1b4' (0#1) [D:/University/CS/major-courses/dld/labs/reports/lab7/lab7/Mux4to1b4/verilog/circuit/Mux4to1b4.v:9]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:14 . Memory (MB): peak = 1039.141 ; gain = 548.922
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:06 ; elapsed = 00:00:16 . Memory (MB): peak = 1039.141 ; gain = 548.922
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k160tffg676-2L
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:06 ; elapsed = 00:00:16 . Memory (MB): peak = 1039.141 ; gain = 548.922
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7k160tffg676-2L
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:16 . Memory (MB): peak = 1039.141 ; gain = 548.922
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 600 (col length:100)
+BRAMs: 650 (col length: RAMB18 100 RAMB36 50)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:29 . Memory (MB): peak = 1235.410 ; gain = 745.191
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:29 . Memory (MB): peak = 1245.301 ; gain = 755.082
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:10 ; elapsed = 00:00:29 . Memory (MB): peak = 1245.301 ; gain = 755.082
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:16 ; elapsed = 00:00:38 . Memory (MB): peak = 1246.203 ; gain = 755.984
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:16 ; elapsed = 00:00:38 . Memory (MB): peak = 1246.203 ; gain = 755.984
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:16 ; elapsed = 00:00:38 . Memory (MB): peak = 1246.203 ; gain = 755.984
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:16 ; elapsed = 00:00:38 . Memory (MB): peak = 1246.203 ; gain = 755.984
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:16 ; elapsed = 00:00:38 . Memory (MB): peak = 1246.203 ; gain = 755.984
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:16 ; elapsed = 00:00:38 . Memory (MB): peak = 1246.203 ; gain = 755.984
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT6 |     4|
+|2     |IBUF |    18|
+|3     |OBUF |     4|
++------+-----+------+
+
+Report Instance Areas: 
++------+------------+-------------------+------+
+|      |Instance    |Module             |Cells |
++------+------------+-------------------+------+
+|1     |top         |                   |    26|
+|2     |  O0        |Mux4to1            |     1|
+|3     |    GATES_9 |OR_GATE_4_INPUTS_5 |     1|
+|4     |  O1        |Mux4to1_0          |     1|
+|5     |    GATES_9 |OR_GATE_4_INPUTS_4 |     1|
+|6     |  O2        |Mux4to1_1          |     1|
+|7     |    GATES_9 |OR_GATE_4_INPUTS_3 |     1|
+|8     |  O3        |Mux4to1_2          |     1|
+|9     |    GATES_9 |OR_GATE_4_INPUTS   |     1|
++------+------------+-------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:16 ; elapsed = 00:00:38 . Memory (MB): peak = 1246.203 ; gain = 755.984
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:16 ; elapsed = 00:00:38 . Memory (MB): peak = 1246.203 ; gain = 755.984
+Synthesis Optimization Complete : Time (s): cpu = 00:00:16 ; elapsed = 00:00:38 . Memory (MB): peak = 1246.203 ; gain = 755.984
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1258.285 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1358.887 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 2ba723bd
+INFO: [Common 17-83] Releasing license: Synthesis
+18 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:19 ; elapsed = 00:00:42 . Memory (MB): peak = 1358.887 ; gain = 872.645
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1358.887 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/University/CS/major-courses/dld/labs/reports/lab7/Mux4to1b4_sch/Mux4to1b4_sch.runs/synth_1/Mux4to1b4.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Mux4to1b4_utilization_synth.rpt -pb Mux4to1b4_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Apr 15 22:15:45 2024...

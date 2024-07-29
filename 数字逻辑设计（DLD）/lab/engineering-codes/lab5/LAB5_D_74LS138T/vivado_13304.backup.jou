@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Thu Mar 28 21:10:29 2024
+# Process ID: 13304
+# Current directory: D:/University/CS/major-courses/dld/labs/reports/lab5/vivado/LAB5_D_74LS138T
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4032 D:\University\CS\major-courses\dld\labs\reports\lab5\vivado\LAB5_D_74LS138T\LAB5_D_74LS138T.xpr
+# Log file: D:/University/CS/major-courses/dld/labs/reports/lab5/vivado/LAB5_D_74LS138T/vivado.log
+# Journal file: D:/University/CS/major-courses/dld/labs/reports/lab5/vivado/LAB5_D_74LS138T\vivado.jou
+# Running On: LAPTOP-P3519Q3B, OS: Windows, CPU Frequency: 2918 MHz, CPU Physical cores: 14, Host memory: 16788 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/University/CS/major-courses/dld/labs/reports/lab5/vivado/LAB5_D_74LS138T/LAB5_D_74LS138T.xpr
+update_compile_order -fileset sources_1

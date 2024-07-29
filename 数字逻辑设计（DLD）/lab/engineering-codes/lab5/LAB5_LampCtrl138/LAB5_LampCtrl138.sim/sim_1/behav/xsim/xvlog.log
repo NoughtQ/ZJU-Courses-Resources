@@ -1,0 +1,16 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CST/Desktop/2024.3.26/111/LampCtrl138/verilog/gates/AND_GATE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AND_GATE
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CST/Desktop/2024.3.26/111/LampCtrl138/verilog/circuit/D_74LS138.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module D_74LS138
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CST/Desktop/2024.3.26/111/LampCtrl138/verilog/circuit/LampCtrl138.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LampCtrl138
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CST/Desktop/2024.3.26/111/LampCtrl138/verilog/gates/NAND_GATE_3_INPUTS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NAND_GATE_3_INPUTS
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CST/Desktop/2024.3.26/111/LampCtrl138/verilog/gates/NAND_GATE_4_INPUTS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NAND_GATE_4_INPUTS
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CST/Desktop/2024.3.26/111/LampCtrl138/verilog/gates/NOR_GATE_3_INPUTS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NOR_GATE_3_INPUTS
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CST/Desktop/3-28/LAB5_LampCtrl138/LAB5_LampCtrl138.srcs/sim_1/new/LampCtrl138_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LampCtrl138_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CST/Desktop/3-28/LAB5_LampCtrl138/LAB5_LampCtrl138.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

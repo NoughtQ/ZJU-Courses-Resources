@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Mar 28 14:58:02 2024
+# Process ID: 8380
+# Current directory: C:/Users/CST/Desktop/3-28/LAB5_LampCtrl138/LAB5_LampCtrl138.runs/synth_1
+# Command line: vivado.exe -log LampCtrl138.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source LampCtrl138.tcl
+# Log file: C:/Users/CST/Desktop/3-28/LAB5_LampCtrl138/LAB5_LampCtrl138.runs/synth_1/LampCtrl138.vds
+# Journal file: C:/Users/CST/Desktop/3-28/LAB5_LampCtrl138/LAB5_LampCtrl138.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source LampCtrl138.tcl -notrace

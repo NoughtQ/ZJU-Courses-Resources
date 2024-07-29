@@ -1,0 +1,51 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 3548210ea0fd4398b59299a8b5be814d --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot LampCtrl138_tb_behav xil_defaultlib.LampCtrl138_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/CST/Desktop/2024.3.26/111/LampCtrl138/verilog/circuit/LampCtrl138.v" Line 9. Module LampCtrl138 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/CST/Desktop/2024.3.26/111/LampCtrl138/verilog/gates/NAND_GATE_4_INPUTS.v" Line 9. Module NAND_GATE_4_INPUTS(BubblesMask=65'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/CST/Desktop/2024.3.26/111/LampCtrl138/verilog/circuit/D_74LS138.v" Line 9. Module D_74LS138 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/CST/Desktop/2024.3.26/111/LampCtrl138/verilog/gates/NOR_GATE_3_INPUTS.v" Line 9. Module NOR_GATE_3_INPUTS(BubblesMask=65'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/CST/Desktop/2024.3.26/111/LampCtrl138/verilog/gates/AND_GATE.v" Line 9. Module AND_GATE(BubblesMask=65'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/CST/Desktop/2024.3.26/111/LampCtrl138/verilog/gates/AND_GATE.v" Line 9. Module AND_GATE(BubblesMask=65'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/CST/Desktop/2024.3.26/111/LampCtrl138/verilog/gates/AND_GATE.v" Line 9. Module AND_GATE(BubblesMask=65'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/CST/Desktop/2024.3.26/111/LampCtrl138/verilog/gates/AND_GATE.v" Line 9. Module AND_GATE(BubblesMask=65'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/CST/Desktop/2024.3.26/111/LampCtrl138/verilog/gates/NAND_GATE_3_INPUTS.v" Line 9. Module NAND_GATE_3_INPUTS(BubblesMask=65'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/CST/Desktop/2024.3.26/111/LampCtrl138/verilog/gates/NAND_GATE_3_INPUTS.v" Line 9. Module NAND_GATE_3_INPUTS(BubblesMask=65'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/CST/Desktop/2024.3.26/111/LampCtrl138/verilog/gates/NAND_GATE_3_INPUTS.v" Line 9. Module NAND_GATE_3_INPUTS(BubblesMask=65'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/CST/Desktop/2024.3.26/111/LampCtrl138/verilog/gates/NAND_GATE_3_INPUTS.v" Line 9. Module NAND_GATE_3_INPUTS(BubblesMask=65'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/CST/Desktop/2024.3.26/111/LampCtrl138/verilog/gates/NAND_GATE_3_INPUTS.v" Line 9. Module NAND_GATE_3_INPUTS(BubblesMask=65'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/CST/Desktop/2024.3.26/111/LampCtrl138/verilog/gates/NAND_GATE_3_INPUTS.v" Line 9. Module NAND_GATE_3_INPUTS(BubblesMask=65'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/CST/Desktop/2024.3.26/111/LampCtrl138/verilog/gates/NAND_GATE_3_INPUTS.v" Line 9. Module NAND_GATE_3_INPUTS(BubblesMask=65'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/CST/Desktop/2024.3.26/111/LampCtrl138/verilog/gates/NAND_GATE_3_INPUTS.v" Line 9. Module NAND_GATE_3_INPUTS(BubblesMask=65'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/CST/Desktop/2024.3.26/111/LampCtrl138/verilog/circuit/LampCtrl138.v" Line 9. Module LampCtrl138 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/CST/Desktop/2024.3.26/111/LampCtrl138/verilog/gates/NAND_GATE_4_INPUTS.v" Line 9. Module NAND_GATE_4_INPUTS(BubblesMask=65'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/CST/Desktop/2024.3.26/111/LampCtrl138/verilog/circuit/D_74LS138.v" Line 9. Module D_74LS138 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/CST/Desktop/2024.3.26/111/LampCtrl138/verilog/gates/NOR_GATE_3_INPUTS.v" Line 9. Module NOR_GATE_3_INPUTS(BubblesMask=65'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/CST/Desktop/2024.3.26/111/LampCtrl138/verilog/gates/AND_GATE.v" Line 9. Module AND_GATE(BubblesMask=65'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/CST/Desktop/2024.3.26/111/LampCtrl138/verilog/gates/AND_GATE.v" Line 9. Module AND_GATE(BubblesMask=65'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/CST/Desktop/2024.3.26/111/LampCtrl138/verilog/gates/AND_GATE.v" Line 9. Module AND_GATE(BubblesMask=65'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/CST/Desktop/2024.3.26/111/LampCtrl138/verilog/gates/AND_GATE.v" Line 9. Module AND_GATE(BubblesMask=65'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/CST/Desktop/2024.3.26/111/LampCtrl138/verilog/gates/NAND_GATE_3_INPUTS.v" Line 9. Module NAND_GATE_3_INPUTS(BubblesMask=65'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/CST/Desktop/2024.3.26/111/LampCtrl138/verilog/gates/NAND_GATE_3_INPUTS.v" Line 9. Module NAND_GATE_3_INPUTS(BubblesMask=65'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/CST/Desktop/2024.3.26/111/LampCtrl138/verilog/gates/NAND_GATE_3_INPUTS.v" Line 9. Module NAND_GATE_3_INPUTS(BubblesMask=65'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/CST/Desktop/2024.3.26/111/LampCtrl138/verilog/gates/NAND_GATE_3_INPUTS.v" Line 9. Module NAND_GATE_3_INPUTS(BubblesMask=65'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/CST/Desktop/2024.3.26/111/LampCtrl138/verilog/gates/NAND_GATE_3_INPUTS.v" Line 9. Module NAND_GATE_3_INPUTS(BubblesMask=65'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/CST/Desktop/2024.3.26/111/LampCtrl138/verilog/gates/NAND_GATE_3_INPUTS.v" Line 9. Module NAND_GATE_3_INPUTS(BubblesMask=65'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/CST/Desktop/2024.3.26/111/LampCtrl138/verilog/gates/NAND_GATE_3_INPUTS.v" Line 9. Module NAND_GATE_3_INPUTS(BubblesMask=65'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/CST/Desktop/2024.3.26/111/LampCtrl138/verilog/gates/NAND_GATE_3_INPUTS.v" Line 9. Module NAND_GATE_3_INPUTS(BubblesMask=65'b0) doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.NAND_GATE_4_INPUTS(BubblesMask=6...
+Compiling module xil_defaultlib.NOR_GATE_3_INPUTS(BubblesMask=65...
+Compiling module xil_defaultlib.AND_GATE(BubblesMask=65'b0)
+Compiling module xil_defaultlib.NAND_GATE_3_INPUTS(BubblesMask=6...
+Compiling module xil_defaultlib.D_74LS138
+Compiling module xil_defaultlib.LampCtrl138
+Compiling module xil_defaultlib.LampCtrl138_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot LampCtrl138_tb_behav

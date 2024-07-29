@@ -1,0 +1,31 @@
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot ET_D_flip_flop_sim_behav xil_defaultlib.ET_D_flip_flop_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "D:/University/CS/major-courses/dld/labs/reports/lab9/lab9/ET_D_flip_flop/verilog/circuit/ET_D_flip_flop.v" Line 9. Module ET_D_flip_flop doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/University/CS/major-courses/dld/labs/reports/lab9/lab9/MS_SR_flip_flop/verilog/gates/NAND_GATE.v" Line 9. Module NAND_GATE(BubblesMask=65'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/University/CS/major-courses/dld/labs/reports/lab9/lab9/MS_SR_flip_flop/verilog/gates/NAND_GATE.v" Line 9. Module NAND_GATE(BubblesMask=65'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/University/CS/major-courses/dld/labs/reports/lab9/lab9/ET_D_flip_flop/verilog/gates/NAND_GATE_3_INPUTS.v" Line 9. Module NAND_GATE_3_INPUTS(BubblesMask=65'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/University/CS/major-courses/dld/labs/reports/lab9/lab9/MS_SR_flip_flop/verilog/gates/NAND_GATE.v" Line 9. Module NAND_GATE(BubblesMask=65'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/University/CS/major-courses/dld/labs/reports/lab9/lab9/MS_SR_flip_flop/verilog/gates/NAND_GATE.v" Line 9. Module NAND_GATE(BubblesMask=65'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/University/CS/major-courses/dld/labs/reports/lab9/lab9/MS_SR_flip_flop/verilog/gates/NAND_GATE.v" Line 9. Module NAND_GATE(BubblesMask=65'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/University/CS/major-courses/dld/labs/reports/lab9/lab9/ET_D_flip_flop/verilog/circuit/ET_D_flip_flop.v" Line 9. Module ET_D_flip_flop doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/University/CS/major-courses/dld/labs/reports/lab9/lab9/MS_SR_flip_flop/verilog/gates/NAND_GATE.v" Line 9. Module NAND_GATE(BubblesMask=65'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/University/CS/major-courses/dld/labs/reports/lab9/lab9/MS_SR_flip_flop/verilog/gates/NAND_GATE.v" Line 9. Module NAND_GATE(BubblesMask=65'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/University/CS/major-courses/dld/labs/reports/lab9/lab9/ET_D_flip_flop/verilog/gates/NAND_GATE_3_INPUTS.v" Line 9. Module NAND_GATE_3_INPUTS(BubblesMask=65'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/University/CS/major-courses/dld/labs/reports/lab9/lab9/MS_SR_flip_flop/verilog/gates/NAND_GATE.v" Line 9. Module NAND_GATE(BubblesMask=65'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/University/CS/major-courses/dld/labs/reports/lab9/lab9/MS_SR_flip_flop/verilog/gates/NAND_GATE.v" Line 9. Module NAND_GATE(BubblesMask=65'b0) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/University/CS/major-courses/dld/labs/reports/lab9/lab9/MS_SR_flip_flop/verilog/gates/NAND_GATE.v" Line 9. Module NAND_GATE(BubblesMask=65'b0) doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.NAND_GATE(BubblesMask=65'b0)
+Compiling module xil_defaultlib.NAND_GATE_3_INPUTS(BubblesMask=6...
+Compiling module xil_defaultlib.ET_D_flip_flop
+Compiling module xil_defaultlib.ET_D_flip_flop_sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot ET_D_flip_flop_sim_behav

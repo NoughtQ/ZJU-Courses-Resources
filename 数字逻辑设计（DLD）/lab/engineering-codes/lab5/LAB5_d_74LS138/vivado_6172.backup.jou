@@ -1,0 +1,65 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Mar 28 14:18:01 2024
+# Process ID: 6172
+# Current directory: C:/Users/CST/Desktop/3-28/LAB5_d_74LS138
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9116 C:\Users\CST\Desktop\3-28\LAB5_d_74LS138\LAB5_d_74LS138.xpr
+# Log file: C:/Users/CST/Desktop/3-28/LAB5_d_74LS138/vivado.log
+# Journal file: C:/Users/CST/Desktop/3-28/LAB5_d_74LS138\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/CST/Desktop/3-28/LAB5_d_74LS138/LAB5_d_74LS138.xpr
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+launch_simulation
+source D_74LS138_TB.tcl
+close_sim
+close_project
+create_project LAB5_D_74LS138T C:/Users/CST/Desktop/3-28/LAB5_D_74LS138T -part xc7k160tffg676-2L
+add_files {C:/Users/CST/Desktop/2024.3.26/111/D_74LS138_TEST/verilog/gates/NOR_GATE_3_INPUTS.v C:/Users/CST/Desktop/2024.3.26/111/D_74LS138_TEST/verilog/gates/AND_GATE.v C:/Users/CST/Desktop/2024.3.26/111/D_74LS138_TEST/verilog/gates/NAND_GATE_3_INPUTS.v C:/Users/CST/Desktop/2024.3.26/111/D_74LS138_TEST/verilog/circuit/D_74LS138.v C:/Users/CST/Desktop/2024.3.26/111/D_74LS138_TEST/verilog/circuit/D_74LS138_TEST.v}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+file mkdir C:/Users/CST/Desktop/3-28/LAB5_D_74LS138T/LAB5_D_74LS138T.srcs/constrs_1
+file mkdir C:/Users/CST/Desktop/3-28/LAB5_D_74LS138T/LAB5_D_74LS138T.srcs/constrs_1/new
+close [ open C:/Users/CST/Desktop/3-28/LAB5_D_74LS138T/LAB5_D_74LS138T.srcs/constrs_1/new/D74LS138TEST.xdc w ]
+add_files -fileset constrs_1 C:/Users/CST/Desktop/3-28/LAB5_D_74LS138T/LAB5_D_74LS138T.srcs/constrs_1/new/D74LS138TEST.xdc
+close_project
+create_project LAB5_LampCtrl138 C:/Users/CST/Desktop/3-28/LAB5_LampCtrl138 -part xc7k160tffg676-2L
+add_files {C:/Users/CST/Desktop/2024.3.26/111/LampCtrl138/verilog/circuit/LampCtrl138.v C:/Users/CST/Desktop/2024.3.26/111/LampCtrl138/verilog/circuit/D_74LS138.v C:/Users/CST/Desktop/2024.3.26/111/LampCtrl138/verilog/gates/NAND_GATE_4_INPUTS.v C:/Users/CST/Desktop/2024.3.26/111/LampCtrl138/verilog/gates/NAND_GATE_3_INPUTS.v C:/Users/CST/Desktop/2024.3.26/111/LampCtrl138/verilog/gates/NOR_GATE_3_INPUTS.v C:/Users/CST/Desktop/2024.3.26/111/LampCtrl138/verilog/gates/AND_GATE.v}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+file mkdir C:/Users/CST/Desktop/3-28/LAB5_LampCtrl138/LAB5_LampCtrl138.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/CST/Desktop/3-28/LAB5_LampCtrl138/LAB5_LampCtrl138.srcs/sim_1/new/LampCtrl138_tb.v w ]
+add_files -fileset sim_1 C:/Users/CST/Desktop/3-28/LAB5_LampCtrl138/LAB5_LampCtrl138.srcs/sim_1/new/LampCtrl138_tb.v
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+source LampCtrl138_tb.tcl
+file mkdir C:/Users/CST/Desktop/3-28/LAB5_LampCtrl138/LAB5_LampCtrl138.srcs/constrs_1
+file mkdir C:/Users/CST/Desktop/3-28/LAB5_LampCtrl138/LAB5_LampCtrl138.srcs/constrs_1/new
+close [ open C:/Users/CST/Desktop/3-28/LAB5_LampCtrl138/LAB5_LampCtrl138.srcs/constrs_1/new/lamp_xdc.xdc w ]
+add_files -fileset constrs_1 C:/Users/CST/Desktop/3-28/LAB5_LampCtrl138/LAB5_LampCtrl138.srcs/constrs_1/new/lamp_xdc.xdc
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+open_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/CST/Desktop/3-28/LAB5_LampCtrl138/LAB5_LampCtrl138.runs/impl_1/LampCtrl138.bit} [get_hw_devices xc7k160t_0]
+current_hw_device [get_hw_devices xc7k160t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7k160t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7k160t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7k160t_0]
+set_property PROGRAM.FILE {C:/Users/CST/Desktop/3-28/LAB5_LampCtrl138/LAB5_LampCtrl138.runs/impl_1/LampCtrl138.bit} [get_hw_devices xc7k160t_0]
+program_hw_devices [get_hw_devices xc7k160t_0]
+refresh_hw_device [lindex [get_hw_devices xc7k160t_0] 0]
+close_sim

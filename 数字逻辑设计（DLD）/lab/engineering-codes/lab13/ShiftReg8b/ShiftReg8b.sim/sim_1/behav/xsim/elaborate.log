@@ -1,0 +1,51 @@
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot sim_behav xil_defaultlib.sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "D:/University/CS/major-courses/dld/lab/reports/lab13/ShiftReg8b/ShiftReg8b.srcs/sources_1/new/ShiftReg8b.v" Line 1. Module ShiftReg8b_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/University/CS/major-courses/dld/lab/reports/lab13/ShiftReg8b/ShiftReg8b.srcs/sources_1/new/InputGate.v" Line 1. Module Inputgate doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/University/CS/major-courses/dld/lab/reports/lab13/ShiftReg8b/ShiftReg8b.srcs/sources_1/new/InputGate.v" Line 1. Module Inputgate doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/University/CS/major-courses/dld/lab/reports/lab13/ShiftReg8b/ShiftReg8b.srcs/sources_1/new/InputGate.v" Line 1. Module Inputgate doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/University/CS/major-courses/dld/lab/reports/lab13/ShiftReg8b/ShiftReg8b.srcs/sources_1/new/InputGate.v" Line 1. Module Inputgate doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/University/CS/major-courses/dld/lab/reports/lab13/ShiftReg8b/ShiftReg8b.srcs/sources_1/new/InputGate.v" Line 1. Module Inputgate doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/University/CS/major-courses/dld/lab/reports/lab13/ShiftReg8b/ShiftReg8b.srcs/sources_1/new/InputGate.v" Line 1. Module Inputgate doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/University/CS/major-courses/dld/lab/reports/lab13/ShiftReg8b/ShiftReg8b.srcs/sources_1/new/InputGate.v" Line 1. Module Inputgate doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/University/CS/major-courses/dld/lab/reports/lab13/ShiftReg8b/ShiftReg8b.srcs/sources_1/new/InputGate.v" Line 1. Module Inputgate doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/University/CS/major-courses/dld/lab/reports/lab13/ShiftReg8b/ShiftReg8b.srcs/sources_1/new/FD.v" Line 1. Module FD doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/University/CS/major-courses/dld/lab/reports/lab13/ShiftReg8b/ShiftReg8b.srcs/sources_1/new/FD.v" Line 1. Module FD doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/University/CS/major-courses/dld/lab/reports/lab13/ShiftReg8b/ShiftReg8b.srcs/sources_1/new/FD.v" Line 1. Module FD doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/University/CS/major-courses/dld/lab/reports/lab13/ShiftReg8b/ShiftReg8b.srcs/sources_1/new/FD.v" Line 1. Module FD doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/University/CS/major-courses/dld/lab/reports/lab13/ShiftReg8b/ShiftReg8b.srcs/sources_1/new/FD.v" Line 1. Module FD doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/University/CS/major-courses/dld/lab/reports/lab13/ShiftReg8b/ShiftReg8b.srcs/sources_1/new/FD.v" Line 1. Module FD doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/University/CS/major-courses/dld/lab/reports/lab13/ShiftReg8b/ShiftReg8b.srcs/sources_1/new/FD.v" Line 1. Module FD doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/University/CS/major-courses/dld/lab/reports/lab13/ShiftReg8b/ShiftReg8b.srcs/sources_1/new/FD.v" Line 1. Module FD doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/University/CS/major-courses/dld/lab/reports/lab13/ShiftReg8b/ShiftReg8b.srcs/sources_1/new/ShiftReg8b.v" Line 1. Module ShiftReg8b_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/University/CS/major-courses/dld/lab/reports/lab13/ShiftReg8b/ShiftReg8b.srcs/sources_1/new/InputGate.v" Line 1. Module Inputgate doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/University/CS/major-courses/dld/lab/reports/lab13/ShiftReg8b/ShiftReg8b.srcs/sources_1/new/InputGate.v" Line 1. Module Inputgate doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/University/CS/major-courses/dld/lab/reports/lab13/ShiftReg8b/ShiftReg8b.srcs/sources_1/new/InputGate.v" Line 1. Module Inputgate doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/University/CS/major-courses/dld/lab/reports/lab13/ShiftReg8b/ShiftReg8b.srcs/sources_1/new/InputGate.v" Line 1. Module Inputgate doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/University/CS/major-courses/dld/lab/reports/lab13/ShiftReg8b/ShiftReg8b.srcs/sources_1/new/InputGate.v" Line 1. Module Inputgate doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/University/CS/major-courses/dld/lab/reports/lab13/ShiftReg8b/ShiftReg8b.srcs/sources_1/new/InputGate.v" Line 1. Module Inputgate doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/University/CS/major-courses/dld/lab/reports/lab13/ShiftReg8b/ShiftReg8b.srcs/sources_1/new/InputGate.v" Line 1. Module Inputgate doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/University/CS/major-courses/dld/lab/reports/lab13/ShiftReg8b/ShiftReg8b.srcs/sources_1/new/InputGate.v" Line 1. Module Inputgate doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/University/CS/major-courses/dld/lab/reports/lab13/ShiftReg8b/ShiftReg8b.srcs/sources_1/new/FD.v" Line 1. Module FD doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/University/CS/major-courses/dld/lab/reports/lab13/ShiftReg8b/ShiftReg8b.srcs/sources_1/new/FD.v" Line 1. Module FD doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/University/CS/major-courses/dld/lab/reports/lab13/ShiftReg8b/ShiftReg8b.srcs/sources_1/new/FD.v" Line 1. Module FD doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/University/CS/major-courses/dld/lab/reports/lab13/ShiftReg8b/ShiftReg8b.srcs/sources_1/new/FD.v" Line 1. Module FD doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/University/CS/major-courses/dld/lab/reports/lab13/ShiftReg8b/ShiftReg8b.srcs/sources_1/new/FD.v" Line 1. Module FD doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/University/CS/major-courses/dld/lab/reports/lab13/ShiftReg8b/ShiftReg8b.srcs/sources_1/new/FD.v" Line 1. Module FD doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/University/CS/major-courses/dld/lab/reports/lab13/ShiftReg8b/ShiftReg8b.srcs/sources_1/new/FD.v" Line 1. Module FD doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/University/CS/major-courses/dld/lab/reports/lab13/ShiftReg8b/ShiftReg8b.srcs/sources_1/new/FD.v" Line 1. Module FD doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Inputgate
+Compiling module xil_defaultlib.FD
+Compiling module xil_defaultlib.ShiftReg8b_default
+Compiling module xil_defaultlib.sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot sim_behav

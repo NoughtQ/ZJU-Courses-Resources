@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Mar 28 14:18:29 2024
+# Process ID: 12804
+# Current directory: C:/Users/CST/Desktop/3-28/LAB5_d_74LS138/LAB5_d_74LS138.runs/synth_1
+# Command line: vivado.exe -log D_74LS138.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source D_74LS138.tcl
+# Log file: C:/Users/CST/Desktop/3-28/LAB5_d_74LS138/LAB5_d_74LS138.runs/synth_1/D_74LS138.vds
+# Journal file: C:/Users/CST/Desktop/3-28/LAB5_d_74LS138/LAB5_d_74LS138.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source D_74LS138.tcl -notrace

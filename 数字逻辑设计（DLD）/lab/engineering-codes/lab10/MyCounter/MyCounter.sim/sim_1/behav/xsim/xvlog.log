@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/University/CS/major-courses/dld/lab/reports/lab10/MyCounter/MyCounter.srcs/sources_1/new/RevCounter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RevCounter
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/University/CS/major-courses/dld/lab/reports/lab10/MyCounter/MyCounter.srcs/sim_1/new/RevCounter_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RevCounter_sim

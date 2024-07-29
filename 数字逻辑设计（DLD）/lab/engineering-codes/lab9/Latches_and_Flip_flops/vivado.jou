@@ -1,0 +1,72 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Thu Apr 25 16:22:59 2024
+# Process ID: 2024
+# Current directory: D:/University/CS/major-courses/dld/labs/reports/lab9/Latches_and_Flip_flops
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent116 D:\University\CS\major-courses\dld\labs\reports\lab9\Latches_and_Flip_flops\Latches_and_Flip_flops.xpr
+# Log file: D:/University/CS/major-courses/dld/labs/reports/lab9/Latches_and_Flip_flops/vivado.log
+# Journal file: D:/University/CS/major-courses/dld/labs/reports/lab9/Latches_and_Flip_flops\vivado.jou
+# Running On: NULL, OS: Windows, CPU Frequency: 2918 MHz, CPU Physical cores: 14, Host memory: 16788 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/University/CS/major-courses/dld/labs/reports/lab9/Latches_and_Flip_flops/Latches_and_Flip_flops.xpr
+pr
+update_compile_order -fileset sources_1
+launch_simulation
+source MS_SR_flip_flop_sim.tcl
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files D:/University/CS/major-courses/dld/labs/reports/lab9/lab9/MS_SR_flip_flop/verilog/circuit/MS_SR_flip_flop.v] -no_script -reset -force -quiet
+remove_files  D:/University/CS/major-courses/dld/labs/reports/lab9/lab9/MS_SR_flip_flop/verilog/circuit/MS_SR_flip_flop.v
+export_ip_user_files -of_objects  [get_files D:/University/CS/major-courses/dld/labs/reports/lab9/lab9/MS_SR_flip_flop/verilog/circuit/C_SR_latch.v] -no_script -reset -force -quiet
+remove_files  D:/University/CS/major-courses/dld/labs/reports/lab9/lab9/MS_SR_flip_flop/verilog/circuit/C_SR_latch.v
+export_ip_user_files -of_objects  [get_files D:/University/CS/major-courses/dld/labs/reports/lab9/lab9/C_SR_latch/verilog/circuit/C_SR_latch.v] -no_script -reset -force -quiet
+remove_files  D:/University/CS/major-courses/dld/labs/reports/lab9/lab9/C_SR_latch/verilog/circuit/C_SR_latch.v
+add_files {D:/University/CS/major-courses/dld/labs/reports/lab9/lab9/MS_SR_flip_flop/verilog/gates/NAND_GATE.v D:/University/CS/major-courses/dld/labs/reports/lab9/lab9/C_SR_latch/verilog/circuit/C_SR_latch.v D:/University/CS/major-courses/dld/labs/reports/lab9/lab9/C_SR_latch/verilog/gates/NAND_GATE.v D:/University/CS/major-courses/dld/labs/reports/lab9/lab9/MS_SR_flip_flop/verilog/circuit/MS_SR_flip_flop.v D:/University/CS/major-courses/dld/labs/reports/lab9/lab9/MS_SR_flip_flop/verilog/circuit/C_SR_latch.v}
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top MS_SR_flip_flop [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+close_sim
+launch_simulation
+source MS_SR_flip_flop_sim.tcl
+step
+step
+step
+step
+step
+close_sim
+close_project
+open_project D:/University/CS/major-courses/dld/labs/reports/lab9/Latches_and_Flip_flops/Latches_and_Flip_flops.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source MS_SR_flip_flop_sim.tcl
+close_sim
+add_files {D:/University/CS/major-courses/dld/labs/reports/lab9/lab9/ET_D_flip_flop/verilog/gates/NAND_GATE.v D:/University/CS/major-courses/dld/labs/reports/lab9/lab9/ET_D_flip_flop/verilog/gates/NAND_GATE_3_INPUTS.v D:/University/CS/major-courses/dld/labs/reports/lab9/lab9/ET_D_flip_flop/verilog/circuit/ET_D_flip_flop.v}
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top ET_D_flip_flop [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open D:/University/CS/major-courses/dld/labs/reports/lab9/Latches_and_Flip_flops/Latches_and_Flip_flops.srcs/sim_1/new/ET_D_flip_flop_sim.v w ]
+add_files -fileset sim_1 D:/University/CS/major-courses/dld/labs/reports/lab9/Latches_and_Flip_flops/Latches_and_Flip_flops.srcs/sim_1/new/ET_D_flip_flop_sim.v
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top ET_D_flip_flop_sim [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source ET_D_flip_flop_sim.tcl
+close_sim

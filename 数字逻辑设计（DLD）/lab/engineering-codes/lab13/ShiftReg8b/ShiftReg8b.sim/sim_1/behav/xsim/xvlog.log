@@ -1,0 +1,10 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/University/CS/major-courses/dld/lab/reports/lab13/ShiftReg8b/ShiftReg8b.srcs/sources_1/new/FD.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FD
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/University/CS/major-courses/dld/lab/reports/lab13/ShiftReg8b/ShiftReg8b.srcs/sources_1/new/InputGate.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Inputgate
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/University/CS/major-courses/dld/lab/reports/lab13/ShiftReg8b/ShiftReg8b.srcs/sources_1/new/ShiftReg8b.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ShiftReg8b
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/University/CS/major-courses/dld/lab/reports/lab13/ShiftReg8b/ShiftReg8b.srcs/sim_1/new/sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sim
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/University/CS/major-courses/dld/lab/reports/lab13/ShiftReg8b/ShiftReg8b.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

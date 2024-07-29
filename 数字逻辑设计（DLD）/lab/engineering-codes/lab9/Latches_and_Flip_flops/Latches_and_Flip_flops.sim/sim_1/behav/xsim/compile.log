@@ -1,0 +1,8 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/University/CS/major-courses/dld/labs/reports/lab9/lab9/ET_D_flip_flop/verilog/circuit/ET_D_flip_flop.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ET_D_flip_flop
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/University/CS/major-courses/dld/labs/reports/lab9/lab9/MS_SR_flip_flop/verilog/gates/NAND_GATE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NAND_GATE
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/University/CS/major-courses/dld/labs/reports/lab9/lab9/ET_D_flip_flop/verilog/gates/NAND_GATE_3_INPUTS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NAND_GATE_3_INPUTS
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/University/CS/major-courses/dld/labs/reports/lab9/Latches_and_Flip_flops/Latches_and_Flip_flops.srcs/sim_1/new/ET_D_flip_flop_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ET_D_flip_flop_sim

@@ -1,0 +1,16 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CST/Desktop/lab6/lab6/MyMC14495/verilog/gates/AND_GATE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AND_GATE
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CST/Desktop/lab6/lab6/MyMC14495/verilog/gates/AND_GATE_3_INPUTS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AND_GATE_3_INPUTS
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CST/Desktop/lab6/lab6/MyMC14495/verilog/gates/AND_GATE_4_INPUTS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AND_GATE_4_INPUTS
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CST/Desktop/lab6/lab6/MyMC14495/verilog/circuit/MyMC14495.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MyMC14495
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CST/Desktop/lab6/lab6/MyMC14495/verilog/gates/OR_GATE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OR_GATE
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CST/Desktop/lab6/lab6/MyMC14495/verilog/gates/OR_GATE_3_INPUTS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OR_GATE_3_INPUTS
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CST/Desktop/lab6/lab6/MyMC14495/verilog/gates/OR_GATE_4_INPUTS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OR_GATE_4_INPUTS
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/CST/Desktop/lab6/Lab6_MyMC14495/Lab6_MyMC14495.srcs/sim_1/new/mymc14485_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MyMC14495_MyMC14495_sch_tb
