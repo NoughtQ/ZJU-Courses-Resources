@@ -1,0 +1,13 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+C:/Users/CST/Desktop/lab6/Lab6_MyMC14495/Lab6_MyMC14495.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
+C:/Users/CST/Desktop/lab6/Lab6_MyMC14495/Lab6_MyMC14495.srcs/sim_1/new/mymc14485_tb.v,1712812808,verilog,,,,MyMC14495_MyMC14495_sch_tb,,,,,,,,
+C:/Users/CST/Desktop/lab6/lab6/MyMC14495/verilog/circuit/MyMC14495.v,1712498482,verilog,,C:/Users/CST/Desktop/lab6/lab6/MyMC14495/verilog/gates/OR_GATE.v,,MyMC14495,,,,,,,,
+C:/Users/CST/Desktop/lab6/lab6/MyMC14495/verilog/gates/AND_GATE.v,1712498482,verilog,,C:/Users/CST/Desktop/lab6/lab6/MyMC14495/verilog/gates/AND_GATE_3_INPUTS.v,,AND_GATE,,,,,,,,
+C:/Users/CST/Desktop/lab6/lab6/MyMC14495/verilog/gates/AND_GATE_3_INPUTS.v,1712498482,verilog,,C:/Users/CST/Desktop/lab6/lab6/MyMC14495/verilog/gates/AND_GATE_4_INPUTS.v,,AND_GATE_3_INPUTS,,,,,,,,
+C:/Users/CST/Desktop/lab6/lab6/MyMC14495/verilog/gates/AND_GATE_4_INPUTS.v,1712498482,verilog,,C:/Users/CST/Desktop/lab6/lab6/MyMC14495/verilog/circuit/MyMC14495.v,,AND_GATE_4_INPUTS,,,,,,,,
+C:/Users/CST/Desktop/lab6/lab6/MyMC14495/verilog/gates/OR_GATE.v,1712498482,verilog,,C:/Users/CST/Desktop/lab6/lab6/MyMC14495/verilog/gates/OR_GATE_3_INPUTS.v,,OR_GATE,,,,,,,,
+C:/Users/CST/Desktop/lab6/lab6/MyMC14495/verilog/gates/OR_GATE_3_INPUTS.v,1712498482,verilog,,C:/Users/CST/Desktop/lab6/lab6/MyMC14495/verilog/gates/OR_GATE_4_INPUTS.v,,OR_GATE_3_INPUTS,,,,,,,,
+C:/Users/CST/Desktop/lab6/lab6/MyMC14495/verilog/gates/OR_GATE_4_INPUTS.v,1712498482,verilog,,C:/Users/CST/Desktop/lab6/Lab6_MyMC14495/Lab6_MyMC14495.srcs/sim_1/new/mymc14485_tb.v,,OR_GATE_4_INPUTS,,,,,,,,

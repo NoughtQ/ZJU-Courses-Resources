@@ -1,7 +1,0 @@
-Running: xsim.dir/D_74LS138_behav/xsimk.exe -simmode gui -wdb D_74LS138_behav.wdb -simrunnum 0 -socket 55385
-Design successfully loaded
-Design Loading Memory Usage: 6036 KB (Peak: 6036 KB)
-Design Loading CPU Usage: 0 ms
-Simulation completed
-Simulation Memory Usage: 6588 KB (Peak: 6588 KB)
-Simulation CPU Usage: 0 ms

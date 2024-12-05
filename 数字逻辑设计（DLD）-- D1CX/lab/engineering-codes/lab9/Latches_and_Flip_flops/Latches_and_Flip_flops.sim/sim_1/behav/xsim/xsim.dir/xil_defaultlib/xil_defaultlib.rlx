@@ -1,0 +1,18 @@
+0.7
+2020.2
+Oct 13 2023
+20:47:58
+D:/University/CS/major-courses/dld/labs/reports/lab9/Latches_and_Flip_flops/Latches_and_Flip_flops.sim/sim_1/behav/xsim/glbl.v,1697210495,verilog,,,,glbl,,,,,,,,
+D:/University/CS/major-courses/dld/labs/reports/lab9/Latches_and_Flip_flops/Latches_and_Flip_flops.srcs/sim_1/new/C_D_latch_sim.v,1714031013,verilog,,,,C_D_latch_sim,,,,,,,,
+D:/University/CS/major-courses/dld/labs/reports/lab9/Latches_and_Flip_flops/Latches_and_Flip_flops.srcs/sim_1/new/C_SR_latch_sim.v,1714030555,verilog,,,,C_SR_latch_sim,,,,,,,,
+,,,,,,ET_D_flip_flop_sim,,,,,,,,
+D:/University/CS/major-courses/dld/labs/reports/lab9/Latches_and_Flip_flops/Latches_and_Flip_flops.srcs/sim_1/new/MS_SR_flip_flop_sim.v,1714031644,verilog,,,,MS_SR_flip_flop_sim,,,,,,,,
+D:/University/CS/major-courses/dld/labs/reports/lab9/Latches_and_Flip_flops/Latches_and_Flip_flops.srcs/sim_1/new/SR_latch_sim.v,1714030005,verilog,,,,SR_latch_sim,,,,,,,,
+D:/University/CS/major-courses/dld/labs/reports/lab9/lab9/C_D_latch/verilog/circuit/C_D_latch.v,1714029281,verilog,,D:/University/CS/major-courses/dld/labs/reports/lab9/lab9/C_SR_latch/verilog/gates/NAND_GATE.v,,C_D_latch,,,,,,,,
+D:/University/CS/major-courses/dld/labs/reports/lab9/lab9/ET_D_flip_flop/verilog/circuit/ET_D_flip_flop.v,1714029295,verilog,,D:/University/CS/major-courses/dld/labs/reports/lab9/lab9/MS_SR_flip_flop/verilog/gates/NAND_GATE.v,,ET_D_flip_flop,,,,,,,,
+,,,,D:/University/CS/major-courses/dld/labs/reports/lab9/Latches_and_Flip_flops/Latches_and_Flip_flops.srcs/sim_1/new/ET_D_flip_flop_sim.v,,NAND_GATE_3_INPUTS,,,,,,,,
+D:/University/CS/major-courses/dld/labs/reports/lab9/lab9/MS_SR_flip_flop/verilog/circuit/C_SR_latch.v,1714033997,verilog,,D:/University/CS/major-courses/dld/labs/reports/lab9/lab9/MS_SR_flip_flop/verilog/circuit/MS_SR_flip_flop.v,,C_SR_latch,,,,,,,,
+D:/University/CS/major-courses/dld/labs/reports/lab9/lab9/MS_SR_flip_flop/verilog/circuit/MS_SR_flip_flop.v,1714034425,verilog,,D:/University/CS/major-courses/dld/labs/reports/lab9/lab9/MS_SR_flip_flop/verilog/gates/NAND_GATE.v,,MS_SR_flip_flop,,,,,,,,
+D:/University/CS/major-courses/dld/labs/reports/lab9/lab9/MS_SR_flip_flop/verilog/gates/NAND_GATE.v,1714033997,verilog,,D:/University/CS/major-courses/dld/labs/reports/lab9/lab9/ET_D_flip_flop/verilog/gates/NAND_GATE_3_INPUTS.v,,NAND_GATE,,,,,,,,
+D:/University/CS/major-courses/dld/labs/reports/lab9/lab9/SR_latch/verilog/circuit/SR_latch.v,1714029262,verilog,,D:/University/CS/major-courses/dld/labs/reports/lab9/Latches_and_Flip_flops/Latches_and_Flip_flops.srcs/sim_1/new/SR_latch_sim.v,,SR_latch,,,,,,,,
+D:/University/CS/major-courses/dld/labs/reports/lab9/lab9/SR_latch/verilog/gates/NOR_GATE.v,1714029262,verilog,,D:/University/CS/major-courses/dld/labs/reports/lab9/lab9/SR_latch/verilog/circuit/SR_latch.v,,NOR_GATE,,,,,,,,

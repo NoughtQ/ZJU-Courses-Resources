@@ -1,7 +1,0 @@
-Running: xsim.dir/C_D_latch_sim_behav/xsimk.exe -simmode gui -wdb C_D_latch_sim_behav.wdb -simrunnum 0 -socket 11784
-Design successfully loaded
-Design Loading Memory Usage: 9072 KB (Peak: 9072 KB)
-Design Loading CPU Usage: 15 ms
-Simulation completed
-Simulation Memory Usage: 9604 KB (Peak: 9604 KB)
-Simulation CPU Usage: 46 ms

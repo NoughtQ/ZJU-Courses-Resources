@@ -1,7 +1,0 @@
-Running: xsim.dir/SR_latch_sim_behav/xsimk.exe -simmode gui -wdb SR_latch_sim_behav.wdb -simrunnum 0 -socket 4251
-Design successfully loaded
-Design Loading Memory Usage: 8640 KB (Peak: 8640 KB)
-Design Loading CPU Usage: 30 ms
-Simulation completed
-Simulation Memory Usage: 9168 KB (Peak: 9168 KB)
-Simulation CPU Usage: 46 ms
