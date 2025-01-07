@@ -1,0 +1,475 @@
+/*
+
+Xilinx Vivado v2017.4 (64-bit) [Major: 2017, Minor: 4]
+SW Build: 2086221 on Fri Dec 15 20:55:39 MST 2017
+IP Build: 2085800 on Fri Dec 15 22:25:07 MST 2017
+
+Process ID: 9292
+License: Customer
+
+Current time: 	Mon Mar 04 11:22:51 CST 2024
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 16
+
+Screen size: 1707x1067
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 385 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	D:/Vivado/Vivado/2017.4/tps/win64/jre
+JVM executable location: 	D:/Vivado/Vivado/2017.4/tps/win64/jre/bin/java.exe
+
+User name: 	asus
+User home directory: C:/Users/asus
+User working directory: C:/Users/asus/Desktop/Seg7_Dev
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: D:/Vivado/Vivado
+HDI_APPROOT: D:/Vivado/Vivado/2017.4
+RDI_DATADIR: D:/Vivado/Vivado/2017.4/data
+RDI_BINDIR: D:/Vivado/Vivado/2017.4/bin
+
+Vivado preferences file location: C:/Users/asus/AppData/Roaming/Xilinx/Vivado/2017.4/vivado.xml
+Vivado preferences directory: C:/Users/asus/AppData/Roaming/Xilinx/Vivado/2017.4/
+Vivado layouts directory: C:/Users/asus/AppData/Roaming/Xilinx/Vivado/2017.4/layouts
+PlanAhead jar file location: 	D:/Vivado/Vivado/2017.4/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/asus/Desktop/Seg7_Dev/vivado.log
+Vivado journal file location: 	C:/Users/asus/Desktop/Seg7_Dev/vivado.jou
+Engine tmp dir: 	C:/Users/asus/Desktop/Seg7_Dev/.Xil/Vivado-9292-LAPTOP-6G31RL0V
+
+GUI allocated memory:	189 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 693 MB
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 61 MB (+61400kb) [00:00:02]
+// [Engine Memory]: 539 MB (+414173kb) [00:00:02]
+// bs (cj):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\asus\Desktop\Seg7_Dev\Seg7_Dev.xpr. Version: Vivado v2017.4 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/asus/Desktop/Seg7_Dev/Seg7_Dev.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/asus/Desktop/Seg7_Dev/Seg7_Dev.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/asus/Desktop/Seg7_Dev/Seg7_Dev.srcs/sources_1/new'. 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 88 MB (+24975kb) [00:00:04]
+// [Engine Memory]: 629 MB (+65968kb) [00:00:04]
+// [GUI Memory]: 107 MB (+15505kb) [00:00:05]
+// [Engine Memory]: 685 MB (+25755kb) [00:00:05]
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/Vivado/2017.4/data/ip'. 
+// Project name: Seg7_Dev; location: C:/Users/asus/Desktop/Seg7_Dev; part: xc7a100tcsg324-1
+dismissDialog("Open Project"); // bs (cj)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// HMemoryUtils.trashcanNow. Engine heap size: 707 MB. GUI used memory: 39 MB. Current time: 3/4/24 11:22:53 AM CST
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 197 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Seg7_Dev (Seg7_Dev.v)]", 1); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Seg7_Dev (Seg7_Dev.v)]", 1, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Seg7_Dev (Seg7_Dev.v)]", 1, true, false, false, false, false, true); // B (D, cj) - Double Click - Node
+// Elapsed time: 19 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Seg7_Dev (Seg7_Dev.v)]", 1); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Seg7_Dev (Seg7_Dev.v), U1 : dispsync (DisplaySync.v)]", 2, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Seg7_Dev (Seg7_Dev.v), U1 : dispsync (DisplaySync.v)]", 2, false, false, false, false, false, true); // B (D, cj) - Double Click
+// [Engine Memory]: 730 MB (+10687kb) [00:03:56]
+// HMemoryUtils.trashcanNow. Engine heap size: 731 MB. GUI used memory: 41 MB. Current time: 3/4/24 11:26:43 AM CST
+// Elapsed time: 19 seconds
+selectCodeEditor("DisplaySync.v", 160, 140); // cd (w, cj)
+// Elapsed time: 23 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Seg7_Dev.v", 1); // k (j, cj)
+// Elapsed time: 27 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DisplaySync.v", 2); // k (j, cj)
+selectCodeEditor("DisplaySync.v", 563, 294); // cd (w, cj)
+// Elapsed time: 15 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Seg7_Dev.v", 1); // k (j, cj)
+// Elapsed time: 21 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DisplaySync.v", 2); // k (j, cj)
+// [Engine Memory]: 768 MB (+1375kb) [00:05:47]
+// HMemoryUtils.trashcanNow. Engine heap size: 768 MB. GUI used memory: 41 MB. Current time: 3/4/24 11:28:33 AM CST
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Seg7_Dev.v", 1); // k (j, cj)
+selectCodeEditor("Seg7_Dev.v", 53, 295); // cd (w, cj)
+selectCodeEditor("Seg7_Dev.v", 53, 295, false, false, false, false, true); // cd (w, cj) - Double Click
+selectCodeEditor("Seg7_Dev.v", 57, 289); // cd (w, cj)
+selectCodeEditor("Seg7_Dev.v", 57, 289, false, false, false, false, true); // cd (w, cj) - Double Click
+// Elapsed time: 15 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DisplaySync.v", 2); // k (j, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Seg7_Dev.v", 1); // k (j, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DisplaySync.v", 2); // k (j, cj)
+selectMenuItem((HResource) null, "新建垂直群组(V)"); // JMenuItem (JidePopupMenu)
+// Elapsed time: 20 seconds
+selectCodeEditor("DisplaySync.v", 319, 168); // cd (w, cj)
+selectCodeEditor("DisplaySync.v", 158, 159); // cd (w, cj)
+selectCodeEditor("DisplaySync.v", 161, 161); // cd (w, cj)
+selectCodeEditor("DisplaySync.v", 225, 181); // cd (w, cj)
+selectCodeEditor("DisplaySync.v", 215, 195); // cd (w, cj)
+selectCodeEditor("DisplaySync.v", 112, 196); // cd (w, cj)
+selectCodeEditor("DisplaySync.v", 113, 213); // cd (w, cj)
+selectCodeEditor("DisplaySync.v", 216, 233); // cd (w, cj)
+// Elapsed time: 18 seconds
+selectCodeEditor("DisplaySync.v", 126, 273); // cd (w, cj)
+selectCodeEditor("DisplaySync.v", 128, 275); // cd (w, cj)
+selectCodeEditor("DisplaySync.v", 243, 271); // cd (w, cj)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, cj)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 72 seconds
+selectCodeEditor("DisplaySync.v", 113, 120); // cd (w, cj)
+// Elapsed time: 19 seconds
+selectCodeEditor("DisplaySync.v", 201, 238); // cd (w, cj)
+selectCodeEditor("DisplaySync.v", 192, 251); // cd (w, cj)
+selectCodeEditor("DisplaySync.v", 102, 276); // cd (w, cj)
+selectCodeEditor("DisplaySync.v", 75, 275); // cd (w, cj)
+selectCodeEditor("DisplaySync.v", 79, 275); // cd (w, cj)
+selectCodeEditor("DisplaySync.v", 74, 276); // cd (w, cj)
+selectButton(RDIResource.CodeView_TOGGLE_COLUMN_SELECTION_MODE, (String) null); // u (f, cj): TRUE
+selectCodeEditor("DisplaySync.v", 70, 270); // cd (w, cj)
+selectCodeEditor("DisplaySync.v", 177, 239); // cd (w, cj)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, cj)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 16 seconds
+selectCodeEditor("DisplaySync.v", 220, 245); // cd (w, cj)
+// Elapsed time: 50 seconds
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // R (Q, cj)
+// Elapsed time: 18 seconds
+selectCodeEditor("Seg7_Dev.v", 157, 275); // cd (w, cj)
+selectCodeEditor("Seg7_Dev.v", 160, 274); // cd (w, cj)
+// Elapsed time: 15 seconds
+selectCodeEditor("Seg7_Dev.v", 129, 272); // cd (w, cj)
+selectCodeEditor("Seg7_Dev.v", 129, 272, false, false, false, false, true); // cd (w, cj) - Double Click
+selectCodeEditor("Seg7_Dev.v", 129, 272); // cd (w, cj)
+selectCodeEditor("Seg7_Dev.v", 163, 275); // cd (w, cj)
+selectCodeEditor("Seg7_Dev.v", 308, 281); // cd (w, cj)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, cj)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("Seg7_Dev.v", 80, 215); // cd (w, cj)
+selectCodeEditor("Seg7_Dev.v", 194, 218); // cd (w, cj)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, cj)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("Seg7_Dev.v", 88, 230); // cd (w, cj)
+selectCodeEditor("Seg7_Dev.v", 101, 254); // cd (w, cj)
+selectCodeEditor("Seg7_Dev.v", 101, 254, false, false, false, false, true); // cd (w, cj) - Double Click
+selectCodeEditor("Seg7_Dev.v", 101, 253); // cd (w, cj)
+selectCodeEditor("Seg7_Dev.v", 128, 241); // cd (w, cj)
+selectCodeEditor("Seg7_Dev.v", 274, 251); // cd (w, cj)
+selectCodeEditor("Seg7_Dev.v", 277, 234); // cd (w, cj)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, cj)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// PAResourceOtoP.PAViews_CODE: Code: close view
+// Elapsed time: 18 seconds
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // ax
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Seg7_Dev (Seg7_Dev.v), U1 : dispsync (DisplaySync.v)]", 2, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Seg7_Dev (Seg7_Dev.v), U1 : dispsync (DisplaySync.v)]", 2, false, false, false, false, false, true); // B (D, cj) - Double Click
+// Elapsed time: 13 seconds
+selectCodeEditor("DisplaySync.v", 100, 540); // cd (w, cj)
+selectCodeEditor("DisplaySync.v", 335, 540); // cd (w, cj)
+selectCodeEditor("DisplaySync.v", 348, 542); // cd (w, cj)
+selectCodeEditor("DisplaySync.v", 639, 540); // cd (w, cj)
+selectCodeEditor("DisplaySync.v", 95, 559); // cd (w, cj)
+selectCodeEditor("DisplaySync.v", 337, 563); // cd (w, cj)
+selectCodeEditor("DisplaySync.v", 348, 566); // cd (w, cj)
+selectCodeEditor("DisplaySync.v", 617, 554); // cd (w, cj)
+// Elapsed time: 39 seconds
+selectCodeEditor("DisplaySync.v", 89, 577); // cd (w, cj)
+selectCodeEditor("DisplaySync.v", 336, 579); // cd (w, cj)
+selectCodeEditor("DisplaySync.v", 349, 581); // cd (w, cj)
+selectCodeEditor("DisplaySync.v", 91, 599); // cd (w, cj)
+selectCodeEditor("DisplaySync.v", 334, 604); // cd (w, cj)
+selectCodeEditor("DisplaySync.v", 348, 605); // cd (w, cj)
+selectCodeEditor("DisplaySync.v", 613, 597); // cd (w, cj)
+selectCodeEditor("DisplaySync.v", 311, 560); // cd (w, cj)
+selectCodeEditor("DisplaySync.v", 311, 560, false, false, false, false, true); // cd (w, cj) - Double Click
+selectCodeEditor("DisplaySync.v", 311, 560); // cd (w, cj)
+typeControlKey((HResource) null, "DisplaySync.v", 'c'); // cd (w, cj)
+selectCodeEditor("DisplaySync.v", 0, 579); // cd (w, cj)
+typeControlKey((HResource) null, "DisplaySync.v", 'v'); // cd (w, cj)
+selectCodeEditor("DisplaySync.v", 106, 582); // cd (w, cj)
+selectCodeEditor("DisplaySync.v", 140, 613); // cd (w, cj)
+selectCodeEditor("DisplaySync.v", 244, 579); // cd (w, cj)
+selectCodeEditor("DisplaySync.v", 263, 579); // cd (w, cj)
+selectCodeEditor("DisplaySync.v", 365, 581); // cd (w, cj)
+selectCodeEditor("DisplaySync.v", 482, 582); // cd (w, cj)
+selectCodeEditor("DisplaySync.v", 561, 585); // cd (w, cj)
+selectCodeEditor("DisplaySync.v", 565, 583); // cd (w, cj)
+selectCodeEditor("DisplaySync.v", 631, 577); // cd (w, cj)
+selectCodeEditor("DisplaySync.v", 598, 578); // cd (w, cj)
+typeControlKey((HResource) null, "DisplaySync.v", 'c'); // cd (w, cj)
+selectCodeEditor("DisplaySync.v", 98, 595); // cd (w, cj)
+typeControlKey((HResource) null, "DisplaySync.v", 'v'); // cd (w, cj)
+selectCodeEditor("DisplaySync.v", 108, 597); // cd (w, cj)
+selectCodeEditor("DisplaySync.v", 224, 489); // cd (w, cj)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, cj)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("DisplaySync.v", 156, 618); // cd (w, cj)
+// HMemoryUtils.trashcanNow. Engine heap size: 768 MB. GUI used memory: 40 MB. Current time: 3/4/24 12:55:00 PM CST
+// Elapsed time: 4753 seconds
+selectCodeEditor("DisplaySync.v", 244, 580); // cd (w, cj)
+selectCodeEditor("DisplaySync.v", 267, 578); // cd (w, cj)
+selectCodeEditor("DisplaySync.v", 636, 571); // cd (w, cj)
+// Elapsed time: 41 seconds
+selectCodeEditor("DisplaySync.v", 370, 582); // cd (w, cj)
+selectCodeEditor("DisplaySync.v", 481, 578); // cd (w, cj)
+selectCodeEditor("DisplaySync.v", 563, 579); // cd (w, cj)
+selectCodeEditor("DisplaySync.v", 619, 581); // cd (w, cj)
+selectCodeEditor("DisplaySync.v", 606, 578); // cd (w, cj)
+typeControlKey((HResource) null, "DisplaySync.v", 'c'); // cd (w, cj)
+selectCodeEditor("DisplaySync.v", 9, 599); // cd (w, cj)
+selectCodeEditor("DisplaySync.v", 2, 595); // cd (w, cj)
+typeControlKey((HResource) null, "DisplaySync.v", 'v'); // cd (w, cj)
+selectCodeEditor("DisplaySync.v", 0, 599); // cd (w, cj)
+selectCodeEditor("DisplaySync.v", 105, 597); // cd (w, cj)
+selectCodeEditor("DisplaySync.v", 243, 600); // cd (w, cj)
+selectCodeEditor("DisplaySync.v", 265, 599); // cd (w, cj)
+selectCodeEditor("DisplaySync.v", 353, 599); // cd (w, cj)
+// Elapsed time: 10 seconds
+selectCodeEditor("DisplaySync.v", 479, 596); // cd (w, cj)
+selectCodeEditor("DisplaySync.v", 565, 602); // cd (w, cj)
+selectCodeEditor("DisplaySync.v", 625, 595); // cd (w, cj)
+selectCodeEditor("DisplaySync.v", 599, 597); // cd (w, cj)
+// Elapsed time: 12 seconds
+selectCodeEditor("DisplaySync.v", 603, 603); // cd (w, cj)
+typeControlKey((HResource) null, "DisplaySync.v", 'c'); // cd (w, cj)
+selectCodeEditor("DisplaySync.v", 641, 598); // cd (w, cj)
+typeControlKey((HResource) null, "DisplaySync.v", 'v'); // cd (w, cj)
+selectCodeEditor("DisplaySync.v", 107, 621); // cd (w, cj)
+selectCodeEditor("DisplaySync.v", 119, 635); // cd (w, cj)
+selectCodeEditor("DisplaySync.v", 101, 653); // cd (w, cj)
+selectCodeEditor("DisplaySync.v", 90, 669); // cd (w, cj)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, cj)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 27 seconds
+selectCodeEditor("DisplaySync.v", 564, 612); // cd (w, cj)
+selectCodeEditor("DisplaySync.v", 681, 620); // cd (w, cj)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, cj)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 15 seconds
+selectCodeEditor("DisplaySync.v", 262, 614); // cd (w, cj)
+// Elapsed time: 10 seconds
+selectCodeEditor("DisplaySync.v", 244, 559); // cd (w, cj)
+selectCodeEditor("DisplaySync.v", 262, 576); // cd (w, cj)
+selectCodeEditor("DisplaySync.v", 254, 579); // cd (w, cj)
+selectCodeEditor("DisplaySync.v", 245, 582); // cd (w, cj)
+selectCodeEditor("DisplaySync.v", 263, 593); // cd (w, cj)
+selectCodeEditor("DisplaySync.v", 246, 598); // cd (w, cj)
+selectCodeEditor("DisplaySync.v", 263, 613); // cd (w, cj)
+selectCodeEditor("DisplaySync.v", 246, 621); // cd (w, cj)
+selectCodeEditor("DisplaySync.v", 247, 437); // cd (w, cj)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, cj)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 23 seconds
+selectCodeEditor("DisplaySync.v", 360, 619); // cd (w, cj)
+selectCodeEditor("DisplaySync.v", 512, 615); // cd (w, cj)
+selectCodeEditor("DisplaySync.v", 633, 618); // cd (w, cj)
+selectCodeEditor("DisplaySync.v", 480, 616); // cd (w, cj)
+selectCodeEditor("DisplaySync.v", 566, 620); // cd (w, cj)
+selectCodeEditor("DisplaySync.v", 643, 617); // cd (w, cj)
+// Elapsed time: 15 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, cj)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 12 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Seg7_Dev.v", 1); // k (j, cj)
+selectCodeEditor("Seg7_Dev.v", 9, 182); // cd (w, cj)
+// Elapsed time: 21 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DisplaySync.v", 2); // k (j, cj)
+selectCodeEditor("DisplaySync.v", 159, 309); // cd (w, cj)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, cj)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("DisplaySync.v", 275, 311); // cd (w, cj)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Seg7_Dev.v", 1); // k (j, cj)
+selectCodeEditor("Seg7_Dev.v", 130, 350); // cd (w, cj)
+selectCodeEditor("Seg7_Dev.v", 169, 345); // cd (w, cj)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, cj)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("Seg7_Dev.v", 113, 390); // cd (w, cj)
+selectCodeEditor("Seg7_Dev.v", 182, 388); // cd (w, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DisplaySync.v", 2); // k (j, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Seg7_Dev.v", 1); // k (j, cj)
+selectCodeEditor("Seg7_Dev.v", 86, 408); // cd (w, cj)
+selectCodeEditor("Seg7_Dev.v", 89, 408, false, false, false, false, true); // cd (w, cj) - Double Click
+selectCodeEditor("Seg7_Dev.v", 125, 408); // cd (w, cj)
+selectCodeEditor("Seg7_Dev.v", 65, 406); // cd (w, cj)
+selectCodeEditor("Seg7_Dev.v", 131, 407); // cd (w, cj)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, cj)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("Seg7_Dev.v", 37, 428); // cd (w, cj)
+selectCodeEditor("Seg7_Dev.v", 109, 426); // cd (w, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DisplaySync.v", 2); // k (j, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Seg7_Dev.v", 1); // k (j, cj)
+selectCodeEditor("Seg7_Dev.v", 104, 273); // cd (w, cj)
+selectCodeEditor("Seg7_Dev.v", 143, 381); // cd (w, cj)
+selectCodeEditor("Seg7_Dev.v", 118, 433); // cd (w, cj)
+selectCodeEditor("Seg7_Dev.v", 107, 409); // cd (w, cj)
+selectCodeEditor("Seg7_Dev.v", 64, 425); // cd (w, cj)
+selectCodeEditor("Seg7_Dev.v", 122, 421); // cd (w, cj)
+selectCodeEditor("Seg7_Dev.v", 41, 443); // cd (w, cj)
+selectCodeEditor("Seg7_Dev.v", 56, 464); // cd (w, cj)
+selectCodeEditor("Seg7_Dev.v", 58, 293); // cd (w, cj)
+selectCodeEditor("Seg7_Dev.v", 62, 312); // cd (w, cj)
+selectCodeEditor("Seg7_Dev.v", 179, 309); // cd (w, cj)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, cj)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("Seg7_Dev.v", 67, 447); // cd (w, cj)
+selectCodeEditor("Seg7_Dev.v", 80, 459); // cd (w, cj)
+selectCodeEditor("Seg7_Dev.v", 164, 458); // cd (w, cj)
+selectCodeEditor("Seg7_Dev.v", 57, 480); // cd (w, cj)
+selectCodeEditor("Seg7_Dev.v", 61, 483); // cd (w, cj)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, cj)
+selectCodeEditor("Seg7_Dev.v", 148, 433); // cd (w, cj)
+selectCodeEditor("Seg7_Dev.v", 52, 484); // cd (w, cj)
+selectCodeEditor("Seg7_Dev.v", 154, 485); // cd (w, cj)
+selectCodeEditor("Seg7_Dev.v", 269, 380); // cd (w, cj)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, cj)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("Seg7_Dev.v", 225, 407); // cd (w, cj)
+selectCodeEditor("Seg7_Dev.v", 226, 423); // cd (w, cj)
+selectCodeEditor("Seg7_Dev.v", 226, 441); // cd (w, cj)
+selectCodeEditor("Seg7_Dev.v", 228, 464); // cd (w, cj)
+selectCodeEditor("Seg7_Dev.v", 256, 485); // cd (w, cj)
+selectCodeEditor("Seg7_Dev.v", 223, 483); // cd (w, cj)
+selectCodeEditor("Seg7_Dev.v", 235, 501); // cd (w, cj)
+selectCodeEditor("Seg7_Dev.v", 268, 492); // cd (w, cj)
+selectCodeEditor("Seg7_Dev.v", 314, 498); // cd (w, cj)
+selectCodeEditor("Seg7_Dev.v", 350, 496); // cd (w, cj)
+// Elapsed time: 10 seconds
+selectButton(RDIResource.CodeView_TOGGLE_COLUMN_SELECTION_MODE, (String) null); // u (f, cj): TRUE
+selectCodeEditor("Seg7_Dev.v", 238, 522); // cd (w, cj)
+selectCodeEditor("Seg7_Dev.v", 316, 572); // cd (w, cj)
+selectCodeEditor("Seg7_Dev.v", 336, 538); // cd (w, cj)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, cj)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 43 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 15, false); // u (O, cj)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// f (cj): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bs (cj):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (cj)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 8 
+// Tcl Message: [Mon Mar  4 13:05:25 2024] Launched synth_1... Run output will be captured here: C:/Users/asus/Desktop/Seg7_Dev/Seg7_Dev.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bs (cj)
+// TclEventType: RUN_COMPLETED
+// ah (cj): Synthesis Completed: addNotify
+// Elapsed time: 100 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_GOTO_NETLIST_DESIGN, "Open Synthesized Design"); // a (N, ah)
+dismissDialog("Synthesis Completed"); // ah (cj)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U (q, cj)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORT, "Report"); // Z (cj)
+selectMenuItem(PAResourceCommand.PACommandNames_IP_PACKAGER_WIZARD, "Create and Package New IP..."); // ac (cj)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U (q, cj)
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER_WIZARD
+// Q (cj): Create and Package New IP: addNotify
+selectButton("NEXT", "Next >"); // JButton (h, Q)
+selectRadioButton(PAResourceItoN.NewIpWizard_PACKAGE_YOUR_CURRENT_PROJECT_USE, "Package your current project. Use the project as the source for creating a new IP Definition."); // b (a, Q)
+// bs (Q):  Analyze source files for top modules : addNotify
+selectButton("NEXT", "Next >"); // JButton (h, Q)
+dismissDialog("Analyze source files for top modules"); // bs (Q)
+selectButton("NEXT", "Next >"); // JButton (h, Q)
+selectButton("PAResourceItoN.NewIpWizard_IP_DEFINITION_ALREADY_EXISTS_IN_Overwrite", "Overwrite"); // JButton (A, G)
+selectButton("FINISH", "Finish"); // JButton (h, Q)
+// 'q' command handler elapsed time: 12 seconds
+dismissDialog("Create and Package New IP"); // Q (cj)
+// TclEventType: LOAD_FEATURE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PACKAGER_CURRENT_CORE
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// Tcl Message: ipx::package_project -root_dir c:/users/asus/desktop/seg7_dev/seg7_dev.srcs/sources_1/new -vendor xilinx.com -library user -taxonomy /UserIP -force 
+// bs (cj):  IP Packager : addNotify
+dismissDialog("IP Packager"); // bs (cj)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+maximizeFrame(PAResourceOtoP.PAViews_REPORTS, "Reports"); // ax (aF, cj)
+closeFrame(PAResourceOtoP.PAViews_REPORTS, "Reports"); // ax (aF, cj)
+unMinimizeFrame(RDIResource.RDIViews_PROPERTIES, "Properties"); // ax
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Review and Package", 7); // an (O, cj)
+selectButton(PAResourceQtoS.ReviewContentPanel_RE_PACKAGE_IP, "Re-Package IP"); // a (c, cj)
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: set_property core_revision 2 [ipx::current_core] 
+// Tcl Message: ipx::create_xgui_files [ipx::current_core] 
+// Tcl Message: ipx::update_checksums [ipx::current_core] 
+// Tcl Message: ipx::save_core [ipx::current_core] 
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// Tcl Message: update_ip_catalog -rebuild -repo_path c:/Users/asus/Desktop/Seg7_Dev/Seg7_Dev.srcs/sources_1/new 
+// Tcl Message: INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Users/asus/Desktop/Seg7_Dev/Seg7_Dev.srcs/sources_1/new' 
+// TclEventType: LOAD_FEATURE
+selectButton("PAResourceQtoS.ReviewContentPanel_FINISHED_PACKAGING_SUCCESSFULLY_OK", "OK"); // JButton (A, G)
+// TclEventType: FILE_SET_CHANGE

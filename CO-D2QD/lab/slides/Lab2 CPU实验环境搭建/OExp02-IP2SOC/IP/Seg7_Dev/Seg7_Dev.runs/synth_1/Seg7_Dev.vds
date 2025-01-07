@@ -1,0 +1,257 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Mon Mar  4 13:05:27 2024
+# Process ID: 23028
+# Current directory: C:/Users/asus/Desktop/Seg7_Dev/Seg7_Dev.runs/synth_1
+# Command line: vivado.exe -log Seg7_Dev.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Seg7_Dev.tcl
+# Log file: C:/Users/asus/Desktop/Seg7_Dev/Seg7_Dev.runs/synth_1/Seg7_Dev.vds
+# Journal file: C:/Users/asus/Desktop/Seg7_Dev/Seg7_Dev.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Seg7_Dev.tcl -notrace
+Command: synth_design -top Seg7_Dev -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 42336 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 386.914 ; gain = 97.535
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Seg7_Dev' [C:/Users/asus/Desktop/Seg7_Dev/Seg7_Dev.srcs/sources_1/new/Seg7_Dev.v:23]
+INFO: [Synth 8-638] synthesizing module 'dispsync' [C:/Users/asus/Desktop/Seg7_Dev/Seg7_Dev.srcs/sources_1/new/DisplaySync.v:23]
+INFO: [Synth 8-256] done synthesizing module 'dispsync' (1#1) [C:/Users/asus/Desktop/Seg7_Dev/Seg7_Dev.srcs/sources_1/new/DisplaySync.v:23]
+INFO: [Synth 8-638] synthesizing module 'MC_14495' [C:/Users/asus/Desktop/Seg7_Dev/Seg7_Dev.srcs/sources_1/new/MC_14495.v:23]
+INFO: [Synth 8-638] synthesizing module 'INV' [D:/Vivado/Vivado/2017.4/scripts/rt/data/unisim_comp.v:22577]
+INFO: [Synth 8-256] done synthesizing module 'INV' (2#1) [D:/Vivado/Vivado/2017.4/scripts/rt/data/unisim_comp.v:22577]
+INFO: [Synth 8-638] synthesizing module 'AND4' [D:/Vivado/Vivado/2017.4/scripts/rt/data/unisim_comp.v:108]
+INFO: [Synth 8-256] done synthesizing module 'AND4' (3#1) [D:/Vivado/Vivado/2017.4/scripts/rt/data/unisim_comp.v:108]
+INFO: [Synth 8-638] synthesizing module 'OR4' [D:/Vivado/Vivado/2017.4/scripts/rt/data/unisim_comp.v:30939]
+INFO: [Synth 8-256] done synthesizing module 'OR4' (4#1) [D:/Vivado/Vivado/2017.4/scripts/rt/data/unisim_comp.v:30939]
+INFO: [Synth 8-638] synthesizing module 'AND3' [D:/Vivado/Vivado/2017.4/scripts/rt/data/unisim_comp.v:60]
+INFO: [Synth 8-256] done synthesizing module 'AND3' (5#1) [D:/Vivado/Vivado/2017.4/scripts/rt/data/unisim_comp.v:60]
+INFO: [Synth 8-638] synthesizing module 'OR3' [D:/Vivado/Vivado/2017.4/scripts/rt/data/unisim_comp.v:30891]
+INFO: [Synth 8-256] done synthesizing module 'OR3' (6#1) [D:/Vivado/Vivado/2017.4/scripts/rt/data/unisim_comp.v:30891]
+INFO: [Synth 8-638] synthesizing module 'AND2' [D:/Vivado/Vivado/2017.4/scripts/rt/data/unisim_comp.v:14]
+INFO: [Synth 8-256] done synthesizing module 'AND2' (7#1) [D:/Vivado/Vivado/2017.4/scripts/rt/data/unisim_comp.v:14]
+INFO: [Synth 8-638] synthesizing module 'OR2' [D:/Vivado/Vivado/2017.4/scripts/rt/data/unisim_comp.v:30845]
+INFO: [Synth 8-256] done synthesizing module 'OR2' (8#1) [D:/Vivado/Vivado/2017.4/scripts/rt/data/unisim_comp.v:30845]
+INFO: [Synth 8-256] done synthesizing module 'MC_14495' (9#1) [C:/Users/asus/Desktop/Seg7_Dev/Seg7_Dev.srcs/sources_1/new/MC_14495.v:23]
+INFO: [Synth 8-256] done synthesizing module 'Seg7_Dev' (10#1) [C:/Users/asus/Desktop/Seg7_Dev/Seg7_Dev.srcs/sources_1/new/Seg7_Dev.v:23]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 439.113 ; gain = 149.734
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 439.113 ; gain = 149.734
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 439.113 ; gain = 149.734
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 439.113 ; gain = 149.734
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Muxes : 
+	   8 Input      8 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module dispsync 
+Detailed RTL Component Info : 
++---Muxes : 
+	   8 Input      8 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 598.535 ; gain = 309.156
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 598.535 ; gain = 309.156
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 598.535 ; gain = 309.156
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 598.535 ; gain = 309.156
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 598.535 ; gain = 309.156
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 598.535 ; gain = 309.156
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 598.535 ; gain = 309.156
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 598.535 ; gain = 309.156
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 598.535 ; gain = 309.156
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+------+------+
+|      |Cell  |Count |
++------+------+------+
+|1     |AND2  |     1|
+|2     |AND3  |    11|
+|3     |AND4  |     9|
+|4     |INV   |     5|
+|5     |LUT3  |     8|
+|6     |LUT6  |    12|
+|7     |MUXF7 |     6|
+|8     |OR2   |     7|
+|9     |OR3   |     3|
+|10    |OR4   |     4|
+|11    |IBUF  |    51|
+|12    |OBUF  |    16|
++------+------+------+
+
+Report Instance Areas: 
++------+---------+---------+------+
+|      |Instance |Module   |Cells |
++------+---------+---------+------+
+|1     |top      |         |   133|
+|2     |  U2     |MC_14495 |    58|
++------+---------+---------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 598.535 ; gain = 309.156
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 598.535 ; gain = 309.156
+Synthesis Optimization Complete : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 598.535 ; gain = 309.156
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 97 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 40 instances were transformed.
+  AND2 => LUT2: 1 instances
+  AND3 => LUT3: 11 instances
+  AND4 => LUT4: 9 instances
+  INV => LUT1: 5 instances
+  OR2 => LUT2: 7 instances
+  OR3 => LUT3: 3 instances
+  OR4 => LUT4: 4 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+29 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:10 ; elapsed = 00:00:14 . Memory (MB): peak = 700.078 ; gain = 423.285
+INFO: [Common 17-1381] The checkpoint 'C:/Users/asus/Desktop/Seg7_Dev/Seg7_Dev.runs/synth_1/Seg7_Dev.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Seg7_Dev_utilization_synth.rpt -pb Seg7_Dev_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.028 . Memory (MB): peak = 700.078 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Mon Mar  4 13:05:44 2024...

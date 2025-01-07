@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Mon Sep 30 14:34:24 2024
+# Process ID: 1620
+# Current directory: D:/University/CS/major-courses/computer-organization--D2QD/lab/slides/Lab3 复杂操作实现 乘除和浮点加法/OExp03/OExp03-mul32
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15572 D:\University\CS\major-courses\computer-organization--D2QD\lab\slides\Lab3 复杂操作实现 乘除和浮点加法\OExp03\OExp03-mul32\mul32.xpr
+# Log file: D:/University/CS/major-courses/computer-organization--D2QD/lab/slides/Lab3 复杂操作实现 乘除和浮点加法/OExp03/OExp03-mul32/vivado.log
+# Journal file: D:/University/CS/major-courses/computer-organization--D2QD/lab/slides/Lab3 复杂操作实现 乘除和浮点加法/OExp03/OExp03-mul32\vivado.jou
+# Running On: NULL, OS: Windows, CPU Frequency: 2918 MHz, CPU Physical cores: 14, Host memory: 16788 MB
+#-----------------------------------------------------------
+start_gui
+open_project {D:/University/CS/major-courses/computer-organization--D2QD/lab/slides/Lab3 复杂操作实现 乘除和浮点加法/OExp03/OExp03-mul32/mul32.xpr}
+upgrade_project -migrate_output_products
+update_compile_order -fileset sources_1

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Mon Mar  4 13:05:27 2024
+# Process ID: 23028
+# Current directory: C:/Users/asus/Desktop/Seg7_Dev/Seg7_Dev.runs/synth_1
+# Command line: vivado.exe -log Seg7_Dev.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Seg7_Dev.tcl
+# Log file: C:/Users/asus/Desktop/Seg7_Dev/Seg7_Dev.runs/synth_1/Seg7_Dev.vds
+# Journal file: C:/Users/asus/Desktop/Seg7_Dev/Seg7_Dev.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Seg7_Dev.tcl -notrace

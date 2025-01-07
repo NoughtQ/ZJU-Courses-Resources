@@ -1,0 +1,29 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Mon Mar  4 11:22:42 2024
+# Process ID: 9292
+# Current directory: C:/Users/asus/Desktop/Seg7_Dev
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18352 C:\Users\asus\Desktop\Seg7_Dev\Seg7_Dev.xpr
+# Log file: C:/Users/asus/Desktop/Seg7_Dev/vivado.log
+# Journal file: C:/Users/asus/Desktop/Seg7_Dev\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/asus/Desktop/Seg7_Dev/Seg7_Dev.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/asus/Desktop/Seg7_Dev/Seg7_Dev.srcs/sources_1/new'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/Vivado/2017.4/data/ip'.
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 8
+[Mon Mar  4 13:05:25 2024] Launched synth_1...
+Run output will be captured here: C:/Users/asus/Desktop/Seg7_Dev/Seg7_Dev.runs/synth_1/runme.log
+ipx::package_project -root_dir c:/users/asus/desktop/seg7_dev/seg7_dev.srcs/sources_1/new -vendor xilinx.com -library user -taxonomy /UserIP -force
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path c:/Users/asus/Desktop/Seg7_Dev/Seg7_Dev.srcs/sources_1/new
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Users/asus/Desktop/Seg7_Dev/Seg7_Dev.srcs/sources_1/new'
