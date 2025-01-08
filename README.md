@@ -20,7 +20,7 @@
 - [LinearAlgebra（线性代数（甲））](LinearAlgebra-D1QD)
 - [DM（离散数学及其应用）](DM-D1CX)
 - [FDS（数据结构基础）](FDS-D1CX)
-- [DLD（数字逻辑设计）](DLD-D1CX)：
+- [DLD（数字逻辑设计）](DLD-D1CX)
 - [ApplicationsOfWirelessNetwork（无线网络应用）](ApplicationsOfWirelessNetwork-D1C)
 - [Marxism（马克思主义基本原理）](Marxism-D1CX)
 
@@ -33,6 +33,7 @@
 - [DIP（图像信息处理）](DIP-D2QD)
 - [TheoryOfMilitary（军事理论）](TheoryOfMilitary-D2QD)
 - [SP（社会心理学）](SP-D2QD)
+- [ItoP（心理学导论）](ItoP-D2QD)
 
 TBD
 
