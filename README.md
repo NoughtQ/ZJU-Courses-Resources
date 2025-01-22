@@ -34,6 +34,7 @@
 - [TheoryOfMilitary（军事理论）](TheoryOfMilitary-D2QD)
 - [SP（社会心理学）](SP-D2QD)
 - [ItoP（心理学导论）](ItoP-D2QD)
+- [AlgoInGameDesign（算法在游戏设计中的应用（国际化课程））](AlgoInGameDesign-D2QD)
 
 TBD
 
