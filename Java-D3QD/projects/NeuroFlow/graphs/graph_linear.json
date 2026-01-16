@@ -1,0 +1,17 @@
+{
+  "graph_id": "linear_chain",
+  "description": "Linear chain: A->B->C->D->E",
+  "nodes": [
+    { "id": "A", "task_type": "matrix_multiply", "output_dims": [512,512], "compute_time_ms": 100 },
+    { "id": "B", "task_type": "relu", "output_dims": [512,512], "compute_time_ms": 60 },
+    { "id": "C", "task_type": "add", "output_dims": [512,512], "compute_time_ms": 60 },
+    { "id": "D", "task_type": "relu", "output_dims": [512,512], "compute_time_ms": 60 },
+    { "id": "E", "task_type": "softmax", "output_dims": [512,512], "compute_time_ms": 80 }
+  ],
+  "edges": [
+    { "from": "A", "to": "B" },
+    { "from": "B", "to": "C" },
+    { "from": "C", "to": "D" },
+    { "from": "D", "to": "E" }
+  ]
+}

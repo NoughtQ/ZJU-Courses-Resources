@@ -1,0 +1,16 @@
+{
+  "graph_id": "simple_parallel",
+  "description": "A->B,C->D",
+  "nodes": [
+    { "id": "A", "task_type": "matrix_multiply", "output_dims": [128,128], "compute_time_ms": 100 },
+    { "id": "B", "task_type": "relu", "output_dims": [128,128], "compute_time_ms": 50 },
+    { "id": "C", "task_type": "relu", "output_dims": [128,128], "compute_time_ms": 50 },
+    { "id": "D", "task_type": "add", "output_dims": [128,128], "compute_time_ms": 30 }
+  ],
+  "edges": [
+    { "from": "A", "to": "B" },
+    { "from": "A", "to": "C" },
+    { "from": "B", "to": "D" },
+    { "from": "C", "to": "D" }
+  ]
+}

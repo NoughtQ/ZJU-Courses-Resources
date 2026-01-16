@@ -1,0 +1,104 @@
+// 计算机网络许海涛老师教学班, 2025-2026秋冬
+// 本文件的结构如下：
+// * [章节名]
+// [术语中文(及英文缩写)], [术语英文]
+
+
+*第一章 概论
+节点, node
+链路, link
+路由器, router
+分组交换, packet switching
+电路交换, circuit switching
+报文交换, message switching
+分组, packet
+数据率（又称比特率）, data rate
+比特率, bit rate
+带宽, bandwidth
+吞吐量, throughput
+时延, delay/latency
+发送时延, transmission delay
+传播时延, propagation delay
+往返时间RTT, Round-Trip Time
+网络协议, network protocol
+报文, message
+传输控制协议TCP, Transmission Control Protocol
+用户数据报协议UDP, User Datagram Protocol
+尽最大努力, best-effort
+网际协议IP, Internet Protocol
+帧, frame
+协议数据单元PDU, Protocol Data Unit
+实体, entity
+物理层, Physical Layer
+数据链路层, Data Link Layer
+逻辑链路控制子层LLC, Logical Link Control Sublayer
+媒体接入控制子层MAC, Medium Access Control Sublayer
+网络层, Network Layer
+传输层, Transport Layer
+应用层, Application Layer
+OSI模型, OSI Model
+
+*第二章 物理层
+调制解调器, modem
+编解码器, codec
+复用, multiplexing
+曼彻斯特编码, Manchester
+频分复用FDM, Frequency Division Multiplexing
+时分复用TDM, Time Division Multiplexing
+波分复用WDM, Wavelength Division Multiplexing
+码分复用CDM, Code Division Multiplexing
+码分多址CDMA, Code Division Multiple Access
+码片, chip
+码片序列, Chip Sequence
+
+*第三章 数据链路层
+点对点信道, point-to-point links
+广播信道,  broadcast links
+成帧, framing
+差错控制, Error Control
+流量控制, Flow Control
+面向连接, connection-oriented
+无连接, connectionless
+有确认, acknowledged
+无确认, unacknowledged
+前导码, preamble
+差错, incorrect
+丢失, lost
+乱序, out of order
+重复, repeatedly delivery
+基于反馈, feedback-based
+基于速率, rate-based
+检错码, error-detecting code
+纠错码, error-correcting code
+前向纠错FEC, Forward Error Correction
+码字, code word
+码率, code rate
+海明距离, Hamming distance
+奇偶校验, Parity Check
+校验和, Checksum
+循环冗余校验CRC, Cyclic Redundancy Check
+帧检验序列FCS, Frame Check Sequence
+回退N协议GBN, Go-back-N Protocol
+选择重传协议SR, Selective Repeat Protocol
+多协议标签交换MPLS, Multi-Protocol Label Switching
+载波侦听多路访问协议CSMA, Carrier Sense Multiple Access
+带碰撞检测的载波监听多点接入CSMA/CD, Carrier Sense Multiple Access with Collision Detection
+截断二进制指数退避, truncated binary expoential backoff
+碰撞域（又称冲突域）, collision domain
+生成树协议STP, Spanning Tree Protocol
+广播域, broadcast domain
+虚拟局域网VLAN, Virtual LAN
+100BASE-T以太网（又称快速以太网）， Fast Ethernet
+无线局域网WLAN, Wireless Local Area Network
+接入点AP, Access Point
+自组网络, ad hoc network
+隐蔽站问题, hidden station problem
+碰撞避免CA, Collision Avoidance
+网络分配向量NAV, Network Allocation Vector
+推迟接入, defer access
+争用窗口CW, Connection Window
+时隙, time slot
+退避计时器, backoff timer
+集线器, hub
+准备发送请求RTS, Request To Send
+允许发送确认CTS, Clear To Send

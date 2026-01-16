@@ -1,0 +1,13 @@
+digraph NeuroFlow {
+  rankdir=LR;
+  node [shape=box, style=filled, color=lightblue];
+  "A" [label="A\n(matrix_multiply)"];
+  "A" -> "B";
+  "B" [label="B\n(relu)"];
+  "B" -> "C";
+  "C" [label="C\n(add)"];
+  "C" -> "D";
+  "D" [label="D\n(relu)"];
+  "D" -> "E";
+  "E" [label="E\n(softmax)"];
+}

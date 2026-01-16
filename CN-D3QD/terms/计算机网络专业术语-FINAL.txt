@@ -1,0 +1,199 @@
+Data Packet 数据包  
+Interface 接口  
+Physical Layer 物理层  
+Data Link Layer 数据链路层  
+Network Layer 网络层
+Transport Layer 传输层    
+Application Layer 应用层
+MAC Sublayer MAC 子层 
+LLC (Logical Link Control) 逻辑链路控制  
+Virtual Circuit Service 虚电路服务  
+Acknowledged Datagram Service 带确认的数据报服务  
+Client-Server Service 客户端-服务器服务  
+OSI Model OSI 模型  
+Twisted Pair Cable 双绞线
+Fiber Optics 光纤
+Coaxial Cable 同轴电缆 
+Base-T, Base-F   
+FDM (Frequency Division Multiplexing) 频分复用  
+TDM (Time Division Multiplexing) 时分复用  
+WDM (Wavelength Division Multiplexing) 波分复用
+CDM (Code Division Multiplexing) 码分复用
+CDMA (Code Division Multiple Access) 码分多址  
+Circuit Switching 电路交换  
+Packet Switching 分组交换  
+Baud Rate 波特率  
+CRC (Cyclic Redundancy Check) 循环冗余校验  
+Selective Repeat Protocol 选择性重传协议  
+Go-Back-N Protocol 回退 N 协议
+MAC (Medium Access Control) 媒体访问控制
+MACA (Multiple Access Collision Avoidance) 多路访问冲突避免
+Token Ring 令牌环
+RTS (Request To Send)：“准备发送”请求
+CTS (Clear To Send)：“允许发送”确认
+ALOHA 协议（纯ALOHA协议，想发就发）
+Network Interface Card (NIC) 网络接口卡
+VLAN (Virtual Local Area Network) 虚拟局域网  
+CSMA/CD (Carrier Sense Multiple Access with Collision Detection) 载波监听多路访问/碰撞检测  
+ARP (Address Resolution Protocol) 地址解析协议  
+TCP (Transmission Control Protocol) 传输控制协议  
+UDP (User Datagram Protocol) 用户数据报协议  
+ICMP (Internet Control Message Protocol) 网络控制报文协议  
+DHCP (Dynamic Host Configuration Protocol) 动态主机配置协议  
+SSL (Secure Sockets Layer) 安全套接层  
+RSA Algorithm RSA 算法  
+Quantum Cryptography 量子密码学  
+MPLS (Multiprotocol Label Switching) 多协议标签交换  
+OSPF (Open Shortest Path First) 开放最短路径优先  
+BGP (Border Gateway Protocol) 边界网关协议  
+DNS (Domain Name System) 域名系统  
+SMTP (Simple Mail Transfer Protocol) 简单邮件传输协议  
+MIME (Multipurpose Internet Mail Extensions) 多用途互联网邮件扩展  
+Data Link 数据链路  
+Point-to-Point Links 点对点链路 （point指普通网络节点） 
+Broadcast Links 广播链路  
+End-to-End 端到端，一般是指进程到进程，比如TCP提供的是端对端、可靠的、进程间的面向连接的数据传送服务。
+Peer-to-Peer 端对端，是相对于Client-Server客户端-服务器的业务模式而言的
+PPP (Point-to-Point Protocol) 点对点协议  
+Telephone Switch 电话交换机，是电路交换的一种  
+Switching 交换  
+Framing 帧处理  
+Flow Control 流量控制  
+Error Control 差错控制  
+Congestion Control 拥塞控制  
+Electromagnetic Interference (EMI) 电磁干扰  
+Baseband Transmission 基带传输*
+4B/5B scheme	4B/5B编码*
+Multiplexing 复用  
+Guard Bands 防护带
+Bandwidth 带宽  
+Noiseless Channel 无噪声信道  
+Signal-to-Noise Ratio (SNR) 信噪比  
+Maximum Data Rate 最大数据传输率  
+MHz  兆赫兹  
+KHz  千赫兹  
+Chip Sequence 码片序列 
+Codec 编解码器  
+Modem 调制解调器  
+Analog and Digital Signals 模拟信号和数字信号  
+Error Correction 差错校正  
+Modulation and Demodulation 调制与解调  
+Bit Stuffing 位填充  
+Frame Serial Number 帧序号  
+Channel Utilization 信道利用率  
+Mbps (Megabits per second) 每秒兆比特  
+Propagation Time 传播时间  
+Transmission Errors 传输错误  
+Error Detection 错误检测  
+Error Correction 错误纠正  
+Hamming Code 海明码
+Even Parity Sum	偶校验和，是指在一组二进制数中，1的个数为偶数时，校验位设为0
+Parity Bit 校验位  
+Check Bits 校验位  
+Binary Exponential Back-off 二进制指数退避算法  
+Bridge 网桥  
+Collision Domain 冲突域  
+Broadcast Domain 广播域  
+Ethernet Frame 以太网帧  
+Start of Frame Delimiter 帧起始定界符  
+Preamble 前导码  
+CSMA/CD (Carrier Sense Multiple Access with Collision Detection) 带冲突检测的载波侦听多路访问  
+Network Address 网络地址  
+Private Address 私有地址*
+Subnet Mask 子网掩码  
+Hostname 主机名  
+Routing Table 路由表  
+Link-State Routing Protocol 链路状态路由协议  
+Socket Primitive 套接字原语  
+Bind 绑定*  （udp port 8080**** ）
+Wireshark Wireshark抓包工具  
+Capture Filter 捕获过滤器
+TCP Congestion Window TCP拥塞窗口  
+Timeout 超时  
+Maximum Segment Size (MSS) 最大分段大小  
+TPDU (Transport Protocol Data Unit) 传输协议数据单元 
+Byte Stream Service Model 字节流服务模型  
+TCP Sequence Number TCP序列号  
+Acknowledgement Number 确认号  
+Three-Way Handshake 三次握手  
+SYN Flag 同步标志位  
+ACK Flag 确认标志位  
+RTT (Round-Trip Time) 往返时间  
+Jacobson Algorithm Jacobson算法 * 
+TCP Reno TCP Reno协议  *
+Congestion Window Size 拥塞窗口大小  
+Retransmission Timer 重传计时器  
+Persistence Timer 持续计时器  
+Deadlock 死锁  
+FIN Flag 结束标志位  
+CLOSE_WAIT CLOSE_WAIT状态  
+FIN_WAIT FIN_WAIT状态  
+CLOSING CLOSING状态  
+Protocol Stack 协议栈  
+RTP (Real-Time Transport Protocol) 实时传输协议  *64
+TLS (Transport Layer Security) 传输层安全协议  
+SSH (Secure Shell) 安全外壳协议  
+Domain Name Lookup 域名查询  
+Root Name Server 根名称服务器  
+Authoritative Name Server 权威名称服务器  
+Local Name Server 本地名称服务器  
+Top Level Name Server 顶级名称服务器  
+HTTP Response Code HTTP响应码  
+MIME Type/Subtype MIME类型/子类型  
+MX Record (Mail Exchange Record) 邮件交换记录  
+Resource Record (DNS) 资源记录  
+PHP (Hypertext Preprocessor) 超文本预处理器  
+JSP (JavaServer Pages) Java服务器页面  
+CGI (Common Gateway Interface) 通用网关接口  
+Base64 Encoding Base64编码 * 
+CRLF (Carriage Return + Line Feed) 回车换行  
+Web Cache 网络缓存  
+Persistent Connection 持久连接  
+Conditional GET 条件GET请求  
+HTML (HyperText Markup Language) 超文本标记语言  
+CSS (Cascading Style Sheets) 层叠样式表  
+Form (HTML Element) 表单 (HTML元素)  
+POST Method POST方法  
+URI Path URI路径  
+Content-Type Header 内容类型头  
+Request Body 请求体  
+Host Header 主机头  
+Authentication 认证  
+MD (Message Digest) 消息摘要  
+One-Way Hash Function 单向哈希函数  
+Public Key 公钥  
+Private Key 私钥  
+Certificate 证书  
+CA (Certificate Authority) 证书颁发机构  
+Public-Key Algorithm 公钥算法  
+RSA (Rivest-Shamir-Adleman Algorithm) RSA算法  
+Diffie-Hellman Key Exchange Algorithm Diffie-Hellman密钥交换算法  
+Replay Attack 重放攻击  
+Man-in-the-Middle Attack 中间人攻击  
+Shared Secret Key 共享密钥  
+Encryption Key 加密密钥  
+Decryption Key 解密密钥  
+Prime Numbers 素数  
+Modulo Operation 模运算  
+Cryptographic Principles 密码学原则  
+Redundancy 冗余  
+Freshness 新鲜性  
+One-Time Pad 一次性密码本  
+Bit Stream 位流  
+Loopback Address 回环地址  
+Router ID 路由器标识  
+Distance Vector Routing Protocol 距离向量路由协议  
+EGP (Exterior Gateway Protocol) 外部网关协议  
+Datagram Network 数据报网络  
+Link State Routing Protocol 链路状态路由协议  
+Switch 交换机  
+FastEthernet 快速以太网  
+Access VLAN (Virtual LAN) 接入虚拟局域网  
+Trunk Encapsulation Dot1Q 干道封装 Dot1Q  
+Native VLAN 本地虚拟局域网  
+Default Router 默认路由器  
+Interface Vlan 虚拟局域网接口  
+Network Area 网络区域  
+Static Route 静态路由  
+Destination Network 目标网络  
+Serial Interface 串行接口  

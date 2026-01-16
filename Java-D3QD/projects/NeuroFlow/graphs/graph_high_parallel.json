@@ -1,0 +1,17 @@
+{
+  "graph_id": "high_parallel",
+  "description": "High parallelism: 4 independent nodes then merge",
+  "nodes": [
+    { "id": "A", "task_type": "matrix_multiply", "output_dims": [256,256], "compute_time_ms": 100 },
+    { "id": "B", "task_type": "matrix_multiply", "output_dims": [256,256], "compute_time_ms": 100 },
+    { "id": "C", "task_type": "matrix_multiply", "output_dims": [256,256], "compute_time_ms": 100 },
+    { "id": "D", "task_type": "matrix_multiply", "output_dims": [256,256], "compute_time_ms": 100 },
+    { "id": "E", "task_type": "add", "output_dims": [256,256], "compute_time_ms": 50 }
+  ],
+  "edges": [
+    { "from": "A", "to": "E" },
+    { "from": "B", "to": "E" },
+    { "from": "C", "to": "E" },
+    { "from": "D", "to": "E" }
+  ]
+}

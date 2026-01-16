@@ -1,0 +1,113 @@
+{
+  "graph_id": "high_parallel",
+  "total_time_ms": 153,
+  "execution_order": [
+    {
+      "node_id": "A",
+      "start_time_ms": 1765086213719,
+      "end_time_ms": 1765086213855,
+      "duration_ms": 136,
+      "output_size": 65536
+    },
+    {
+      "node_id": "B",
+      "start_time_ms": 1765086213719,
+      "end_time_ms": 1765086213850,
+      "duration_ms": 131,
+      "output_size": 65536
+    },
+    {
+      "node_id": "C",
+      "start_time_ms": 1765086213719,
+      "end_time_ms": 1765086213859,
+      "duration_ms": 140,
+      "output_size": 65536
+    },
+    {
+      "node_id": "D",
+      "start_time_ms": 1765086213719,
+      "end_time_ms": 1765086213855,
+      "duration_ms": 136,
+      "output_size": 65536
+    },
+    {
+      "node_id": "E",
+      "start_time_ms": 1765086213860,
+      "end_time_ms": 1765086213870,
+      "duration_ms": 10,
+      "output_size": 65536
+    }
+  ],
+  "performance_metrics": {
+    "peak_memory_mb": 2,
+    "max_concurrency": 4,
+    "avg_thread_utilization": "80.77%",
+    "parallelism_curve": [
+      {
+        "timestamp_ms": 1,
+        "active_threads": 0,
+        "finished_nodes": 0
+      },
+      {
+        "timestamp_ms": 23,
+        "active_threads": 4,
+        "finished_nodes": 0
+      },
+      {
+        "timestamp_ms": 35,
+        "active_threads": 4,
+        "finished_nodes": 0
+      },
+      {
+        "timestamp_ms": 48,
+        "active_threads": 4,
+        "finished_nodes": 0
+      },
+      {
+        "timestamp_ms": 60,
+        "active_threads": 4,
+        "finished_nodes": 0
+      },
+      {
+        "timestamp_ms": 72,
+        "active_threads": 4,
+        "finished_nodes": 0
+      },
+      {
+        "timestamp_ms": 84,
+        "active_threads": 4,
+        "finished_nodes": 0
+      },
+      {
+        "timestamp_ms": 97,
+        "active_threads": 4,
+        "finished_nodes": 0
+      },
+      {
+        "timestamp_ms": 108,
+        "active_threads": 4,
+        "finished_nodes": 0
+      },
+      {
+        "timestamp_ms": 121,
+        "active_threads": 4,
+        "finished_nodes": 0
+      },
+      {
+        "timestamp_ms": 133,
+        "active_threads": 4,
+        "finished_nodes": 0
+      },
+      {
+        "timestamp_ms": 145,
+        "active_threads": 1,
+        "finished_nodes": 3
+      },
+      {
+        "timestamp_ms": 156,
+        "active_threads": 1,
+        "finished_nodes": 6
+      }
+    ]
+  }
+}

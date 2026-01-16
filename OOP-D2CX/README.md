@@ -4,7 +4,7 @@
 
 - 98 上历年卷资源汇总
     - [23-24 及以前](https://www.cc98.org/topic/5928482)（但是 23-24 前的几年有不少 gap，所以再之前的只有 19-20 的了）
-    - [24-25](https://www.cc98.org/topic/6099603)
+    - [24-25 秋冬](https://www.cc98.org/topic/6099603)
 - 笔记：
     - [Jerryhzy 大佬的笔记](https://blog.jerryhzy.top/)（强烈推荐想要考前速成的同学拜读！）
     - [xyx 前辈的笔记](https://xuan-insr.github.io/cpp/cpp_restart/)（深入浅出的 C++ 介绍！）

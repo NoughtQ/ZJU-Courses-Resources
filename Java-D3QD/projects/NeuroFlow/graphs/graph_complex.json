@@ -1,0 +1,23 @@
+{
+  "graph_id": "complex_dag",
+  "description": "Complex DAG with multiple layers: A->B,C,D->E,F->G",
+  "nodes": [
+    { "id": "A", "task_type": "matrix_multiply", "output_dims": [256,256], "compute_time_ms": 80 },
+    { "id": "B", "task_type": "relu", "output_dims": [256,256], "compute_time_ms": 40 },
+    { "id": "C", "task_type": "add", "output_dims": [256,256], "compute_time_ms": 40 },
+    { "id": "D", "task_type": "relu", "output_dims": [256,256], "compute_time_ms": 40 },
+    { "id": "E", "task_type": "add", "output_dims": [256,256], "compute_time_ms": 50 },
+    { "id": "F", "task_type": "add", "output_dims": [256,256], "compute_time_ms": 50 },
+    { "id": "G", "task_type": "softmax", "output_dims": [256,256], "compute_time_ms": 60 }
+  ],
+  "edges": [
+    { "from": "A", "to": "B" },
+    { "from": "A", "to": "C" },
+    { "from": "A", "to": "D" },
+    { "from": "B", "to": "E" },
+    { "from": "C", "to": "E" },
+    { "from": "D", "to": "F" },
+    { "from": "E", "to": "G" },
+    { "from": "F", "to": "G" }
+  ]
+}
