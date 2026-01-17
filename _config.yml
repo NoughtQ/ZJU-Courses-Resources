@@ -1,2 +1,9 @@
+theme: jekyll-theme-primer
+
+# 排除不需要 Jekyll 渲染的目录，防止语法报错
 exclude:
   - CA-D2CX/lab/lab3/code
+  - CV-D3QD/lab/lab6
+  - "**/node_modules"
+  - ".git"
+  - ".github"
